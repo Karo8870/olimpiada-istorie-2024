@@ -1,3 +1,17 @@
+import Landing from '@/app/_sections/landing';
+import Welcome from '@/app/_sections/welcome';
+import Brasov from '@/app/_sections/brasov';
+import Saguna from '@/app/_sections/saguna';
+
 export default function Home() {
-  return <main>test sau text, eu consider ca cei care spun test sunt analfabeti!</main>;
+  return (
+    <>
+      <main className='bg-background'>
+        <Landing />
+        <Welcome />
+        <Brasov />
+        <Saguna />
+      </main>
+    </>
+  );
 }
