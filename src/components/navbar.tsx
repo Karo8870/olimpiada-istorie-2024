@@ -40,25 +40,17 @@ export default function AppNavbar() {
 
       <NavbarContent className='hidden gap-4 sm:flex' justify='center'>
         <NavbarItem>
-          <Link className={'font-semibold'} color='foreground' href='/about'>
+          <Link className={'font-semibold'} color='foreground' href='/'>
             Concurs
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link
-            className={'font-semibold'}
-            href='/'
-            color={'foreground'}
-          >
+          <Link className={'font-semibold'} href='/' color={'foreground'}>
             Program
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link
-            className={'font-semibold'}
-            color='foreground'
-            href='/'
-          >
+          <Link className={'font-semibold'} color='foreground' href='/'>
             Informații
           </Link>
         </NavbarItem>
