@@ -14,10 +14,16 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px'
-      }
+      padding: '2rem'
+    },
+    screens: {
+      lg: { max: '1440px' },
+      md: { max: '960px' },
+      sm: { max: '576px' },
+
+      'sm-h': { raw: 'height <= 324px' },
+      'md-h': { max: 'height <= 540px' },
+      'lg-h': { max: 'height <= 810px' }
     },
     extend: {
       colors: {

@@ -1,98 +1,201 @@
-import {
-  Link,
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenu,
-  NavbarMenuItem,
-  NavbarMenuToggle
-} from '@nextui-org/react';
-import Image from 'next/image';
-import React from 'react';
+'use client';
+
+import useNav from '@/components/useNav';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 export default function AppNavbar() {
-  return (
-    <Navbar
-      classNames={{
-        base: 'bg-background'
-      }}
-      maxWidth={'full'}
-      className='z-50'
-    >
-      <NavbarContent justify='start'>
-        <NavbarMenuToggle className='sm:hidden' />
-        <Link href='/'>
-          <NavbarBrand>
-            <Image
-              src={'/logo.png'}
-              alt={'logo'}
-              width={60}
-              height={60}
-              className='h-auto w-auto'
-            />
-            <h1 className='pr-4 font-medium text-black'>
-              Olimpiada națională de istorie 2024
-            </h1>
-          </NavbarBrand>
-        </Link>
-      </NavbarContent>
+  const navMode = useNav();
 
-      <NavbarContent className='hidden gap-4 sm:flex' justify='center'>
-        <NavbarItem>
-          <Link className={'font-semibold'} color='foreground' href='/'>
+  const [open, setOpen] = useState<boolean>(false);
+
+  return (
+    <>
+      <motion.nav
+        layout
+        className={`fixed left-0 top-0 z-10 flex w-full gap-[1vh] bg-white sm:hidden ${navMode ? 'flex-col pt-[2vh]' : 'flex-row justify-center p-[1vh]'}`}
+      >
+        <motion.div
+          layout
+          className={`flex grow basis-0 items-center ${navMode ? 'flex-col gap-1' : 'flex-row gap-6'}`}
+        >
+          <motion.div layout className={`flex justify-center`}>
+            <motion.img
+              layout='preserve-aspect'
+              initial={{
+                scale: navMode ? 1 : 0,
+                opacity: navMode ? 1 : 0
+              }}
+              animate={{
+                scale: navMode ? 0 : 1,
+                opacity: navMode ? 0 : 1
+              }}
+              transition={{
+                scale: {
+                  delay: 0.1,
+                  duration: 0
+                },
+                opacity: {
+                  duration: 0.3,
+                  delay: 0.2
+                },
+                bounce: 0,
+                bounceDamping: 0,
+                bounceStiffness: 0
+              }}
+              className={`h-12 flex-grow basis-0 justify-end ${navMode ? 'hidden' : 'flex'}`}
+              src='logo.png'
+              alt='icon'
+            />
+            <motion.div
+              layout
+              initial={{
+                scale: navMode ? 0 : 1,
+                opacity: navMode ? 0 : 1
+              }}
+              animate={{
+                scale: navMode ? 1 : 0,
+                opacity: navMode ? 1 : 0
+              }}
+              transition={{
+                scale: {
+                  delay: 0.2,
+                  duration: 0
+                },
+                opacity: {
+                  duration: 0.3,
+                  delay: 0.2
+                },
+                bounce: 0,
+                bounceDamping: 0,
+                bounceStiffness: 0
+              }}
+              className={`flex-grow basis-0 justify-start ${navMode ? 'flex' : 'hidden'}`}
+            >
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
+            </motion.div>
+          </motion.div>
+          <motion.a
+            href='/'
+            layout
+            initial={{
+              scale: navMode ? 1 : 0,
+              opacity: navMode ? 1 : 0
+            }}
+            animate={{
+              scale: navMode ? 0 : 1,
+              opacity: navMode ? 0 : 1
+            }}
+            transition={{
+              scale: {
+                delay: 0.1,
+                duration: 0
+              },
+              opacity: {
+                duration: 0.3,
+                delay: 0.2
+              },
+              bounce: 0,
+              bounceDamping: 0,
+              bounceStiffness: 0
+            }}
+            className={`flex flex-col items-center`}
+          >
+            <motion.label
+              layout
+              className={`font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+            >
+              OLIMPIADA DE ISTORIE - ETAPA NATIONALA
+            </motion.label>
+            <motion.label
+              layout
+              className={`font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+            >
+              EDITIA XLVII, 2024
+            </motion.label>
+          </motion.a>
+        </motion.div>
+        <motion.div layout className={`flex items-center justify-center gap-8`}>
+          <motion.a
+            href='/concurs'
+            layout='position'
+            className='text-base font-bold'
+          >
             Concurs
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className={'font-semibold'} href='/' color={'foreground'}>
+          </motion.a>
+          <motion.a
+            href='/program'
+            layout='position'
+            className='text-base font-bold'
+          >
             Program
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className={'font-semibold'} color='foreground' href='/'>
+          </motion.a>
+          <motion.a
+            href='/informatii'
+            layout='position'
+            className='text-base font-bold'
+          >
             Informații
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className={'font-semibold'} color='foreground' href='/'>
+          </motion.a>
+          <motion.a
+            href='/jurnal'
+            layout='position'
+            className='text-base font-bold'
+          >
             Jurnal
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className={'font-semibold'} color='foreground' href='/'>
+          </motion.a>
+          <motion.a
+            href='/contact'
+            layout='position'
+            className='text-base font-bold'
+          >
             Contact
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarContent justify='end'></NavbarContent>
-      <NavbarMenu>
-        <NavbarMenuItem>
-          <Link className='w-full' href='/' size='lg'>
+          </motion.a>
+        </motion.div>
+        <motion.div
+          layout
+          className={`grow basis-0 ${navMode ? 'hidden' : ''}`}
+        ></motion.div>
+      </motion.nav>
+      <div className='fixed left-0 top-0 z-10 hidden w-full flex-col bg-white p-2 sm:flex'>
+        <div className={`flex pb-2`}>
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
+        </div>
+        <div className='flex items-center justify-between pr-4'>
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
+          <i
+            onClick={() => {
+              setOpen(!open);
+            }}
+            className='fa-solid fa-bars text-2xl'
+          />
+        </div>
+        <div className={`flex-col gap-3 py-4 ${open ? 'flex' : 'hidden'}`}>
+          <a href='/concurs' className='text-3xl font-bold'>
             Concurs
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link className='w-full' href='/' size='lg'>
+          </a>
+          <a href='/program' className='text-3xl font-bold'>
             Program
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link className='w-full' href='/' size='lg'>
+          </a>
+          <a href='/informatii' className='text-3xl font-bold'>
             Informații
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link className='w-full' href='/' size='lg'>
+          </a>
+          <a href='/jurnal' className='text-3xl font-bold'>
             Jurnal
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link className='w-full' href='/' size='lg'>
+          </a>
+          <a href='/contact' className='text-3xl font-bold'>
             Contact
-          </Link>
-        </NavbarMenuItem>
-      </NavbarMenu>
-    </Navbar>
+          </a>
+        </div>
+      </div>
+    </>
   );
 }

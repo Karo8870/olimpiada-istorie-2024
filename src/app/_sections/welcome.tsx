@@ -6,8 +6,8 @@ export default function Welcome() {
       <div className='flex w-full justify-center bg-black py-8 text-4xl font-bold text-white max-md:py-4 max-md:text-2xl'>
         Mesaje de bun venit
       </div>
-      <div className='grid grid-cols-2 border-b-4 max-lg:grid-cols-1 max-lg:divide-y-4 lg:divide-x-4'>
-        <div className='bg-primary px-20 pb-16 pt-8 max-md:px-8'>
+      <div className='grid grid-cols-2 divide-x-4 border-b-4 sm:grid-cols-1 sm:divide-x-0 sm:divide-y-4'>
+        <div className='bg-primary px-20 pb-16 pt-8 max-md:px-8 sm:px-8'>
           <div className='flex items-center justify-between'>
             <h2 className='text-3xl font-semibold'>Inspector general</h2>
             <Image
@@ -42,7 +42,7 @@ export default function Welcome() {
             </p>
           </div>
         </div>
-        <div className='bg-secondary px-20 pb-16 pt-8 max-md:px-8'>
+        <div className='bg-secondary px-20 pb-16 pt-8 sm:px-8'>
           <div className='flex items-center justify-between'>
             <h2 className='text-3xl font-semibold'>Inspector general</h2>
             <Image
@@ -78,8 +78,8 @@ export default function Welcome() {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-2 max-lg:grid-cols-1 max-lg:divide-y-4 lg:divide-x-4'>
-        <div className='bg-secondary px-20 pb-16 pt-8 max-md:px-8 max-lg:bg-primary'>
+      <div className='grid grid-cols-2 divide-x-4 sm:grid-cols-1 sm:divide-x-0 sm:divide-y-4'>
+        <div className='bg-secondary px-20 pb-16 pt-8 sm:bg-primary sm:px-8'>
           <div className='flex items-center justify-between'>
             <h2 className='text-3xl font-semibold'>Inspector general</h2>
             <Image
@@ -114,7 +114,7 @@ export default function Welcome() {
             </p>
           </div>
         </div>
-        <div className='bg-primary px-20 pb-16 pt-8 max-md:px-8 max-lg:bg-secondary'>
+        <div className='bg-primary px-20 pb-16 pt-8 sm:bg-secondary sm:px-8'>
           <div className='flex items-center justify-between'>
             <h2 className='text-3xl font-semibold'>Inspector general</h2>
             <Image

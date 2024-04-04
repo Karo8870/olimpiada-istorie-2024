@@ -1,30 +1,31 @@
 import '@/lib/fontawesome/css/fa.css';
-import { cn } from '@/lib/utils';
 
 export default function LargeButton({
   text,
-  className,
-  arrowClassName
+  className = '',
+  arrowClassName,
+  iconBg,
+  iconColor
 }: {
   text: string;
   className?: string;
   arrowClassName?: string;
+  iconBg: string;
+  iconColor: string;
 }) {
   return (
     <button
-      className={cn(
-        'flex h-full min-h-16 w-full items-center justify-between rounded-[30px] border-3 border-black max-xl:px-4 px-8 py-4 text-left text-lg font-semibold leading-tight max-xl:text-base',
-        className
-      )}
+      className={`flex flex-grow basis-0 items-center justify-between rounded-[2rem] border-3 border-black px-4 py-2 lg:rounded-[1rem] lg:border-2 lg:px-2 lg:py-1 ${className}`}
     >
-      {text}
+      <label className='text-lg font-semibold sm:text-xs md:text-[.5rem] md:leading-[1.5] lg:text-xs'>
+        {text}
+      </label>
       <div
-        className={cn(
-          'ml-2 flex h-12 w-12 min-w-12 max-w-12 items-center justify-center rounded-full bg-black max-xl:h-8 max-xl:w-8 max-xl:min-w-8 max-xl:max-w-8',
-          arrowClassName
-        )}
+        className={`flex aspect-square h-[3rem] items-center justify-center rounded-full lg:h-[2rem] ${iconBg}`}
       >
-        <i className='fa fa-arrow-down max-xl:text-base text-xl'></i>
+        <i
+          className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl max-xl:text-base lg:p-0.5 lg:text-sm ${iconColor}`}
+        />
       </div>
     </button>
   );
