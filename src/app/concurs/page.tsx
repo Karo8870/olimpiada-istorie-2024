@@ -16,24 +16,24 @@ function Concurs() {
         </div>
       </div>
       <div className='grid grid-cols-4 gap-6 sm:grid-cols-1 md:grid-cols-2'>
-        <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
+        <div className='flex grow basis-0 flex-col justify-center items-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
           <label className='flex items-center text-xl font-semibold'>
-            <i className='fa fa-file mr-2'></i>
+            <i className='fa fa-regular fa-file-lines mr-2'></i>
             <span>Regulament</span>
             <i className='fa fa-arrow-right ml-2'></i>
           </label>
           <label className='flex items-center text-xl font-semibold'>
-            <i className='fa fa-file mr-2'></i>
+            <i className='fa fa-regular fa-file-lines mr-2'></i>
             <span>Participanți</span>
             <i className='fa fa-arrow-right ml-2'></i>
           </label>
           <label className='flex items-center text-xl font-semibold'>
-            <i className='fa fa-file mr-2'></i>
+            <i className='fa fa-regular fa-file-lines mr-2'></i>
             <span>Comisia de evaluare</span>
             <i className='fa fa-arrow-right ml-2'></i>
           </label>
           <label className='flex items-center text-xl font-semibold'>
-            <i className='fa fa-file mr-2'></i>
+            <i className='fa fa-regular fa-file-lines mr-2'></i>
             <span>Comisia de organizare</span>
             <i className='fa fa-arrow-right ml-2'></i>
           </label>
