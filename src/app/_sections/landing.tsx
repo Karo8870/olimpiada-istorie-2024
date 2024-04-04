@@ -1,49 +1,49 @@
-import { Button } from '@nextui-org/react';
 import '@/lib/fontawesome/css/fa.css';
 import LargeButton from '@/components/large-button';
+import { Button } from '@nextui-org/react';
 
 export default function Landing() {
   return (
-    <section className='flex min-h-screen w-full flex-col items-center justify-center gap-20 px-16 pb-20 pt-60 max-md:px-4 sm:px-8 md:pt-20 lg:gap-10 lg:pt-40'>
-      <div className='flex items-stretch gap-24 sm:flex-col'>
-        <div className='flex grow basis-0 flex-col items-start gap-8 sm:items-center lg:gap-6'>
-          <div className='flex items-center gap-4 sm:flex-col'>
-            <img
-              className='w-40 sm:w-40 md:w-20 lg:w-32'
-              src='logo.png'
-              alt='logo'
-            />
-            <div className='flex flex-col items-center'>
-              <h1 className='text-center text-[2.3rem] font-semibold leading-tight sm:text-2xl md:text-[.8rem] lg:text-[1.5rem]'>
-                OLIMPIADA DE ISTORIE
-              </h1>
-              <h1 className='text-center text-[2.3rem] font-semibold leading-tight sm:text-2xl md:text-[.8rem] lg:text-[1.5rem]'>
-                ETAPA NAȚIONALĂ
-              </h1>
-              <h3 className='text-center text-[1.5rem] font-semibold leading-tight sm:text-base md:text-[.6rem] lg:text-[1rem]'>
-                EDIȚIA XLVII, 2024
-              </h3>
+    <section className='flex min-h-screen w-full flex-col justify-center gap-8 px-8 pb-4 pt-40'>
+      <div className='flex grow basis-0'>
+        <div className='flex grow basis-0 flex-col justify-center'>
+          <div className='flex max-h-[500px] grow flex-col justify-between gap-4'>
+            <div className='flex items-center'>
+              <img
+                className='w-40'
+                src='logo.png'
+                alt='Logo'
+                title='By Adela Florea'
+              />
+              <div className='flex flex-col'>
+                <h1 className='text-center text-[2.25rem] font-semibold'>
+                  OLIMPIADA DE ISTORIE
+                </h1>
+                <h1 className='text-center text-[2.25rem] font-semibold'>
+                  ETAPA NAȚIONALĂ
+                </h1>
+                <h2 className='text-center text-[1.5rem] font-semibold'>
+                  EDIȚIA XLVII, 2024
+                </h2>
+              </div>
             </div>
+            <p className='text-[1.25rem] font-medium'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              id massa sagittis, ultricies tellus vitae, sodales nunc. Morbi
+              semper scelerisque condimentum. Phasellus luctus lacus nec dolor
+              fermentum rhoncus. Sed at dolor justo.
+            </p>
+            <Button color='default' className='self-start text-white'>
+              Vezi mai multe despre concurs
+              <i className='fa fa-arrow-right ml-2'></i>
+            </Button>
           </div>
-          <p className='text-lg max-xl:text-base sm:text-xs md:text-[.5rem] md:leading-[1.5] lg:text-xs'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id
-            massa sagittis, ultricies tellus vitae, sodales nunc. Morbi semper
-            scelerisque condimentum. Phasellus luctus lacus nec dolor fermentum
-            rhoncus. Sed at dolor justo.
-          </p>
-          <Button
-            color='default'
-            className='text-white sm:h-12 sm:text-[.8rem] md:h-[1.5rem] md:rounded-[.5rem] md:text-[.5rem] lg:text-[.8rem]'
-          >
-            Vezi mai multe despre concurs
-            <i className='fa fa-arrow-right ml-2'></i>
-          </Button>
         </div>
-        <div className='relative grow basis-0 sm:hidden'>
+        <div className='relative grow basis-0'>
           <SVG />
         </div>
       </div>
-      <div className='flex w-full justify-between gap-10 sm:flex-col sm:gap-4'>
+      <div className='flex w-full items-stretch gap-4'>
         <LargeButton
           text='Mesaje de bun venit'
           className='bg-[#FFF1C0]'
@@ -66,6 +66,26 @@ export default function Landing() {
     </section>
   );
 }
+
+/*
+* <LargeButton
+          text='Mesaje de bun venit'
+          className='bg-[#FFF1C0]'
+          iconBg='bg-black'
+          iconColor='text-white'
+        />
+        <LargeButton
+          text='Despre Brașov'
+          className='bg-[#FFDDBD]'
+          iconBg='bg-black'
+          iconColor='text-white'
+        />
+        <LargeButton
+          text='Despre Colegiul Național „Andrei Șaguna”'
+          className='bg-[#000000] text-white'
+          iconBg='bg-white'
+          iconColor='text-black'
+        />*/
 
 const SVG = () => (
   <svg

@@ -2,20 +2,22 @@ import '@/lib/fontawesome/css/fa.css';
 
 function Program() {
   return (
-    <main className='flex flex-col gap-8 pb-16 pt-32 sm:px-4'>
-      <div className='relative flex w-full flex-col items-center bg-cover px-16'>
-        <img
-          className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-          src='saguna.png'
-          alt='saguna'
-        />
-        <div className='mb-32 mt-32 flex w-[80%] max-w-[60rem] flex-col items-center'>
-          <h1 className='relative z-10 text-[3rem] font-bold text-white'>
-            Concurs
-          </h1>
+    <main className='flex flex-col gap-8 pt-32'>
+      <div className='px-16 sm:px-4'>
+        <div className='relative flex w-full flex-col items-center bg-cover px-16'>
+          <img
+            className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
+            src='saguna.png'
+            alt='saguna'
+          />
+          <div className='mb-32 mt-32 flex w-[80%] max-w-[60rem] flex-col items-center'>
+            <h1 className='relative z-10 text-[3rem] font-bold text-white'>
+              Concurs
+            </h1>
+          </div>
         </div>
       </div>
-      <div className='grid grid-cols-5 items-center gap-6 px-16 lg:grid-cols-3 md:grid-cols-2'>
+      <div className='grid grid-cols-5 items-center gap-6 px-16 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:px-4'>
         <div className='flex grow basis-0 flex-col gap-4 rounded-[2rem] border-4 bg-[#FFF1C0] px-4 py-5'>
           <div className='flex justify-between'>
             <div className='flex flex-col'>
@@ -78,9 +80,77 @@ function Program() {
         </div>
       </div>
       <div className='grid grid-cols-1 divide-y-4 border-y-4 border-black'>
-        <div className='w-full bg-[#FFF1C0] pl-10'>
+        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] py-12 pl-10 sm:pl-5'>
           <h1 className='text-[3rem] font-bold'>Sâmbătă</h1>
-          <ul className='list-disc'>
+          <ul className='list-disc pl-10 sm:pl-4'>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+          </ul>
+        </div>
+        <div className='flex w-full flex-col gap-10 bg-[#FFDDBD] py-12 pl-10 sm:pl-5'>
+          <h1 className='text-[3rem] font-bold'>Sâmbătă</h1>
+          <ul className='list-disc pl-10 sm:pl-4'>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+          </ul>
+        </div>
+        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] py-12 pl-10 sm:pl-5'>
+          <h1 className='text-[3rem] font-bold'>Sâmbătă</h1>
+          <ul className='list-disc pl-10 sm:pl-4'>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+          </ul>
+        </div>
+        <div className='flex w-full flex-col gap-10 bg-[#FFDDBD] py-12 pl-10 sm:pl-5'>
+          <h1 className='text-[3rem] font-bold'>Sâmbătă</h1>
+          <ul className='list-disc pl-10 sm:pl-4'>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+            <li className='text-xl font-medium'>
+              16:00 - Deschiderea festivă - Aula
+            </li>
+          </ul>
+        </div>
+        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] py-12 pl-10 sm:pl-5'>
+          <h1 className='text-[3rem] font-bold'>Sâmbătă</h1>
+          <ul className='list-disc pl-10 sm:pl-4'>
             <li className='text-xl font-medium'>
               16:00 - Deschiderea festivă - Aula
             </li>

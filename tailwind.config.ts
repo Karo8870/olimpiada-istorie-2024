@@ -18,7 +18,7 @@ const config = {
     },
     screens: {
       lg: { max: '1440px' },
-      md: { max: '960px' },
+      md: { max: '1100px' },
       sm: { max: '576px' },
 
       'sm-h': { raw: 'height <= 324px' },
