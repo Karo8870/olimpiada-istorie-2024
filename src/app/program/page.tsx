@@ -12,7 +12,7 @@ function Program() {
           />
           <div className='mb-32 mt-32 flex w-[80%] max-w-[60rem] flex-col items-center'>
             <h1 className='relative z-10 text-[3rem] font-bold text-white'>
-              Concurs
+              Program
             </h1>
           </div>
         </div>
@@ -25,7 +25,7 @@ function Program() {
               <label className='text-base font-semibold'>27.04.2024</label>
             </div>
             <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm' />
+              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
             </div>
           </div>
           <label className='text-base font-semibold'>Deschiderea festivă</label>
@@ -37,7 +37,7 @@ function Program() {
               <label className='text-base font-semibold'>27.04.2024</label>
             </div>
             <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm' />
+              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
             </div>
           </div>
           <label className='text-base font-semibold'>Deschiderea festivă</label>
@@ -49,7 +49,7 @@ function Program() {
               <label className='text-base font-semibold'>27.04.2024</label>
             </div>
             <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm' />
+              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
             </div>
           </div>
           <label className='text-base font-semibold'>Deschiderea festivă</label>
@@ -61,7 +61,7 @@ function Program() {
               <label className='text-base font-semibold'>27.04.2024</label>
             </div>
             <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm' />
+              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
             </div>
           </div>
           <label className='text-base font-semibold'>Deschiderea festivă</label>
@@ -73,7 +73,7 @@ function Program() {
               <label className='text-base font-semibold'>27.04.2024</label>
             </div>
             <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm' />
+              <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
             </div>
           </div>
           <label className='text-base font-semibold'>Deschiderea festivă</label>
