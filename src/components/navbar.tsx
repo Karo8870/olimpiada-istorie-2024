@@ -1,169 +1,96 @@
 'use client';
 
 import useNav from '@/components/useNav';
-import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function AppNavbar() {
-  const navMode = useNav();
+  const navMode = usePathname() === '/' ? useNav() : false;
 
   const [open, setOpen] = useState<boolean>(false);
 
   return (
     <>
-      <motion.nav
-        layout
-        className={`fixed left-0 top-0 z-10 flex w-full gap-[1vh] bg-white sm:hidden ${navMode ? 'flex-col pt-[2vh]' : 'flex-row justify-center p-[1vh]'}`}
+      <nav
+
+        className={`fixed left-0 top-0 z-50 flex w-full gap-[1vh] bg-white md:hidden ${navMode ? 'flex-col pt-[2vh]' : 'flex-row justify-center p-[1vh]'}`}
       >
-        <motion.div
-          layout
+        <div
+
           className={`flex grow basis-0 items-center ${navMode ? 'flex-col gap-1' : 'flex-row gap-6'}`}
         >
-          <motion.div layout className={`flex justify-center`}>
-            <motion.img
-              layout='preserve-aspect'
-              initial={{
-                scale: navMode ? 1 : 0,
-                opacity: navMode ? 1 : 0
-              }}
-              animate={{
-                scale: navMode ? 0 : 1,
-                opacity: navMode ? 0 : 1
-              }}
-              transition={{
-                scale: {
-                  delay: 0.1,
-                  duration: 0
-                },
-                opacity: {
-                  duration: 0.3,
-                  delay: 0.2
-                },
-                bounce: 0,
-                bounceDamping: 0,
-                bounceStiffness: 0
-              }}
-              className={`h-12 flex-grow basis-0 justify-end ${navMode ? 'hidden' : 'flex'}`}
+          <div>
+            <img
+              className={`h-12 w-12 min-w-12 max-w-12 flex-grow basis-0 justify-end ${navMode ? 'hidden' : 'flex'}`}
               src='logo.png'
               alt='icon'
             />
-            <motion.div
-              layout
-              initial={{
-                scale: navMode ? 0 : 1,
-                opacity: navMode ? 0 : 1
-              }}
-              animate={{
-                scale: navMode ? 1 : 0,
-                opacity: navMode ? 1 : 0
-              }}
-              transition={{
-                scale: {
-                  delay: 0.2,
-                  duration: 0
-                },
-                opacity: {
-                  duration: 0.3,
-                  delay: 0.2
-                },
-                bounce: 0,
-                bounceDamping: 0,
-                bounceStiffness: 0
-              }}
+            <div
               className={`flex-grow basis-0 justify-start ${navMode ? 'flex' : 'hidden'}`}
             >
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-              <motion.img className='h-[8vh]' src='logo.png' alt='icon' />
-            </motion.div>
-          </motion.div>
-          <motion.a
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+              <img className='h-[8vh]' src='logo.png' alt='icon' />
+            </div>
+          </div>
+          <a
             href='/'
-            layout
-            initial={{
-              scale: navMode ? 1 : 0,
-              opacity: navMode ? 1 : 0
-            }}
-            animate={{
-              scale: navMode ? 0 : 1,
-              opacity: navMode ? 0 : 1
-            }}
-            transition={{
-              scale: {
-                delay: 0.1,
-                duration: 0
-              },
-              opacity: {
-                duration: 0.3,
-                delay: 0.2
-              },
-              bounce: 0,
-              bounceDamping: 0,
-              bounceStiffness: 0
-            }}
             className={`flex flex-col items-center`}
           >
-            <motion.label
-              layout
-              className={`font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+            <label
+              className={`text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
               OLIMPIADA DE ISTORIE - ETAPA NATIONALA
-            </motion.label>
-            <motion.label
-              layout
-              className={`font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+            </label>
+            <label
+              className={`text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
               EDITIA XLVII, 2024
-            </motion.label>
-          </motion.a>
-        </motion.div>
-        <motion.div layout className={`flex items-center justify-center gap-8`}>
-          <motion.a
+            </label>
+          </a>
+        </div>
+        <div className={`flex items-center justify-center gap-8`}>
+          <a
             href='/concurs'
-            layout='position'
             className='text-base font-bold'
           >
             Concurs
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href='/program'
-            layout='position'
             className='text-base font-bold'
           >
             Program
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href='/informatii'
-            layout='position'
             className='text-base font-bold'
           >
             Informații
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href='/jurnal'
-            layout='position'
             className='text-base font-bold'
           >
             Jurnal
-          </motion.a>
-          <motion.a
+          </a>
+          <a
             href='/contact'
-            layout='position'
             className='text-base font-bold'
           >
             Contact
-          </motion.a>
-        </motion.div>
-        <motion.div
-          layout
+          </a>
+        </div>
+        <div
           className={`grow basis-0 ${navMode ? 'hidden' : ''}`}
-        ></motion.div>
-      </motion.nav>
-      <div className='fixed left-0 top-0 z-10 hidden w-full flex-col bg-white p-2 sm:flex'>
-        <div className={`flex pb-2`}>
+        ></div>
+      </nav>
+      <div className='fixed left-0 top-0 z-10 hidden w-full flex-col bg-white p-2 md:flex'>
+        <div className={`flex justify-center pb-2`}>
+          <img className='h-12 w-12' src='logo.png' alt='icon' />
           <img className='h-12 w-12' src='logo.png' alt='icon' />
           <img className='h-12 w-12' src='logo.png' alt='icon' />
           <img className='h-12 w-12' src='logo.png' alt='icon' />
@@ -171,6 +98,14 @@ export default function AppNavbar() {
         </div>
         <div className='flex items-center justify-between pr-4'>
           <img className='h-12 w-12' src='logo.png' alt='icon' />
+          <div className='flex flex-col'>
+            <label className={`'text-[1rem] text-center font-bold text-black`}>
+              OLIMPIADA DE ISTORIE - ETAPA NATIONALA
+            </label>
+            <label className={`text-center text-[1rem] font-bold text-black`}>
+              EDITIA XLVII, 2024
+            </label>
+          </div>
           <i
             onClick={() => {
               setOpen(!open);

@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ReactNode } from 'react';
 import AppNavbar from '@/components/navbar';
+import '@/lib/fontawesome/css/fa.css';
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
