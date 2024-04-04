@@ -15,14 +15,14 @@ export default function LargeButton({
 }) {
   return (
     <button
-      className={`flex flex-grow basis-0 items-center justify-between rounded-[2rem] border-3 border-black px-4 py-2 ${className}`}
+      className={`sm:grow-1 flex flex-grow basis-0 items-center justify-between rounded-[2rem] border-3 border-black px-4 py-2 sm:basis-0 sm:px-2 sm:py-1 ${className}`}
     >
-      <label className='text-lg font-semibold'>{text}</label>
+      <label className='text-lg font-semibold sm:text-base'>{text}</label>
       <div
-        className={`flex aspect-square h-[3rem] items-center justify-center rounded-full ${iconBg}`}
+        className={`flex aspect-square h-[3rem] items-center justify-center rounded-full sm:h-[2rem] ${iconBg}`}
       >
         <i
-          className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl ${iconColor}`}
+          className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl sm:text-base ${iconColor}`}
         />
       </div>
     </button>

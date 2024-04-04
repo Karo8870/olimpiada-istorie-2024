@@ -5,35 +5,35 @@ import { Button } from '@nextui-org/react';
 export default function Landing() {
   return (
     <section className='flex min-h-screen w-full flex-col justify-center gap-8 px-8 pb-4 pt-40'>
-      <div className='flex grow basis-0'>
+      <div className='flex grow basis-0 gap-2 sm:flex-col'>
         <div className='flex grow basis-0 flex-col justify-center'>
           <div className='flex max-h-[500px] grow flex-col justify-between gap-4'>
             <div className='flex items-center'>
               <img
-                className='w-40'
+                className='w-40 sm:w-28'
                 src='logo.png'
                 alt='Logo'
                 title='By Adela Florea'
               />
               <div className='flex flex-col'>
-                <h1 className='text-center text-[2.25rem] font-semibold'>
+                <h1 className='text-center text-[2.25rem] font-semibold sm:text-2xl'>
                   OLIMPIADA DE ISTORIE
                 </h1>
-                <h1 className='text-center text-[2.25rem] font-semibold'>
+                <h1 className='text-center text-[2.25rem] font-semibold sm:text-2xl'>
                   ETAPA NAȚIONALĂ
                 </h1>
-                <h2 className='text-center text-[1.5rem] font-semibold'>
+                <h2 className='text-center text-[1.5rem] font-semibold sm:text-base'>
                   EDIȚIA XLVII, 2024
                 </h2>
               </div>
             </div>
-            <p className='text-[1.25rem] font-medium'>
+            <p className='text-[1.25rem] font-medium sm:text-base'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               id massa sagittis, ultricies tellus vitae, sodales nunc. Morbi
               semper scelerisque condimentum. Phasellus luctus lacus nec dolor
               fermentum rhoncus. Sed at dolor justo.
             </p>
-            <Button color='default' className='self-start text-white'>
+            <Button color='default' className='self-start text-white sm:hidden'>
               Vezi mai multe despre concurs
               <i className='fa fa-arrow-right ml-2'></i>
             </Button>
@@ -43,7 +43,7 @@ export default function Landing() {
           <SVG />
         </div>
       </div>
-      <div className='flex w-full items-stretch gap-4'>
+      <div className='flex w-full items-stretch gap-4 sm:flex-col'>
         <LargeButton
           text='Mesaje de bun venit'
           className='bg-[#FFF1C0]'
@@ -58,7 +58,13 @@ export default function Landing() {
         />
         <LargeButton
           text='Despre Colegiul Național „Andrei Șaguna”'
-          className='bg-[#000000] text-white'
+          className='bg-[#000000] text-white sm:hidden'
+          iconBg='bg-white'
+          iconColor='text-black'
+        />
+        <LargeButton
+          text='Colegiul „Andrei Șaguna”'
+          className='hidden bg-[#000000] text-white sm:flex'
           iconBg='bg-white'
           iconColor='text-black'
         />
