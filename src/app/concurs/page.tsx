@@ -23,7 +23,7 @@ function Concurs() {
 function Sections() {
   return (
     <div className='grid grid-cols-4 gap-6 md:grid-cols-2 sm:grid-cols-1'>
-      <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <label className='flex items-center text-xl font-semibold'>
           <i className='fa fa-regular fa-file-lines mr-2'></i>
           <span>Regulament</span>
@@ -45,7 +45,7 @@ function Sections() {
           <i className='fa fa-arrow-right ml-2'></i>
         </label>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-2xl font-extrabold'>SUBIECTE</h1>
         <div className='flex flex-col items-center gap-2'>
           <label className='text-xl font-semibold'>Clasa a VIII-a</label>
@@ -55,7 +55,7 @@ function Sections() {
           <label className='text-xl font-semibold'>Clasa a XII-a</label>
         </div>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-center text-2xl font-extrabold'>
           BAREME DE EVALUARE ȘI NOTARE
         </h1>
@@ -67,7 +67,7 @@ function Sections() {
           <label className='text-xl font-semibold'>Clasa a XII-a</label>
         </div>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-[#FFE4CB] px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-2xl font-extrabold'>REZULTATE</h1>
         <div className='flex flex-col items-center gap-2'>
           <label className='text-xl font-semibold'>Clasa a VIII-a</label>

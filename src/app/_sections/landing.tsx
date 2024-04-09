@@ -46,13 +46,13 @@ export default function Landing() {
       <div className='flex w-full items-stretch gap-4 sm:flex-col'>
         <LargeButton
           text='Mesaje de bun venit'
-          className='bg-[#FFF1C0]'
+          className='bg-primary'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
           text='Despre Brașov'
-          className='bg-[#FFDDBD]'
+          className='bg-secondary'
           iconBg='bg-black'
           iconColor='text-white'
         />

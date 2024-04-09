@@ -109,7 +109,7 @@ function Program() {
         </div>
       </div>
       <div className='grid grid-cols-1 divide-y-4 border-y-4 border-black'>
-        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] pb-12 sm:pl-5'>
+        <div className='flex w-full flex-col gap-10 bg-primary pb-12 sm:pl-5'>
           <div className='w-full bg-black py-8'>
             <h1 className='text-center text-[3rem] font-bold text-white'>
               Sâmbătă
@@ -133,7 +133,7 @@ function Program() {
             </li>
           </ul>
         </div>
-        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] pb-12 sm:pl-5'>
+        <div className='flex w-full flex-col gap-10 bg-primary pb-12 sm:pl-5'>
           <div className='w-full bg-black py-8'>
             <h1 className='text-center text-[3rem] font-bold text-white'>
               Duminică
@@ -157,7 +157,7 @@ function Program() {
             </li>
           </ul>
         </div>
-        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] pb-12 sm:pl-5'>
+        <div className='flex w-full flex-col gap-10 bg-primary pb-12 sm:pl-5'>
           <div className='w-full bg-black py-8'>
             <h1 className='text-center text-[3rem] font-bold text-white'>
               Luni
@@ -181,7 +181,7 @@ function Program() {
             </li>
           </ul>
         </div>
-        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] pb-12 sm:pl-5'>
+        <div className='flex w-full flex-col gap-10 bg-primary pb-12 sm:pl-5'>
           <div className='w-full bg-black py-8'>
             <h1 className='text-center text-[3rem] font-bold text-white'>
               Marți
@@ -205,7 +205,7 @@ function Program() {
             </li>
           </ul>
         </div>
-        <div className='flex w-full flex-col gap-10 bg-[#FFF1C0] pb-12 sm:pl-5'>
+        <div className='flex w-full flex-col gap-10 bg-primary pb-12 sm:pl-5'>
           <div className='w-full bg-black py-8'>
             <h1 className='text-center text-[3rem] font-bold text-white'>
               Miercuri

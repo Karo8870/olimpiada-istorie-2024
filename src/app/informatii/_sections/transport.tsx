@@ -10,7 +10,7 @@ export default function () {
         <div className='flex grow basis-0 flex-col gap-7'>
           <h1 className='text-[3rem] font-bold'>Transport in comun - RATBV</h1>
           <div className='flex gap-6'>
-            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-[#FFF1C0] px-5 py-4'>
+            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-primary px-5 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold'>RATBV</label>
                 <label className='text-[1.25rem] font-semibold'>
@@ -19,7 +19,7 @@ export default function () {
               </div>
               <i className='fa fa-arrow-right text-xl' />
             </div>
-            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-[#FFDDBD] px-5 py-4'>
+            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-secondary px-5 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold'>RATBV</label>
                 <label className='text-[1.25rem] font-semibold'>Linia 20</label>
@@ -31,7 +31,7 @@ export default function () {
             </div>
           </div>
           <h1 className='text-[3rem] font-bold'>Adrese utile</h1>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-[#FFF1C0]'>
+          <div className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold'>
@@ -44,7 +44,7 @@ export default function () {
               <i className='fa fa-arrow-right text-xl' />
             </div>
           </div>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-[#FFDDBD]'>
+          <div className='flex flex-col rounded-[1.5rem] border-3 bg-secondary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold'>
@@ -57,7 +57,7 @@ export default function () {
               <i className='fa fa-arrow-right text-xl' />
             </div>
           </div>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-[#FFF1C0]'>
+          <div className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold'>
