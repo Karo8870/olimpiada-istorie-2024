@@ -7,7 +7,7 @@ export default function Saguna() {
         Despre Colegiul Național „Andrei Șaguna”
       </h1>
       <iframe
-        className='h-[562.5px] w-[1000px] md:h-[168.75px] md:w-[300px]'
+        className='h-[562.5px] w-[1000px] rounded-xl md:h-[168.75px] md:w-[300px]'
         width='1000'
         height='562.5'
         src='https://www.youtube.com/embed/zyFBEzmkn34?si=LD7O8i0OppK6urvN'
