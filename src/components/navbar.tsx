@@ -41,12 +41,12 @@ export default function AppNavbar() {
             <label
               className={`cursor-pointer text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
-              OLIMPIADA DE ISTORIE - ETAPA NATIONALA
+              OLIMPIADA DE ISTORIE - ETAPA NAȚIONALĂ
             </label>
             <label
               className={`cursor-pointer text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
-              EDITIA XLVII, 2024
+              EDIȚIA XLVII, 2024
             </label>
           </Link>
         </div>
