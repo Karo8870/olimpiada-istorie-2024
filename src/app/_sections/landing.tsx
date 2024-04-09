@@ -11,7 +11,7 @@ export default function Landing() {
             <div className='flex items-center'>
               <img
                 className='w-40 sm:w-28'
-                src='logo.png'
+                src='/logo.png'
                 alt='Logo'
                 title='By Adela Florea'
               />
