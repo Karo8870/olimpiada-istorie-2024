@@ -4,109 +4,123 @@ export default function () {
       <div className='w-full bg-black py-8'>
         <h1 className='text-center text-[3rem] font-bold text-white'>Cazare</h1>
       </div>
-      <div className='flex border-b-4 py-10 pl-20'>
-        <div className='flex grow basis-0 flex-col gap-12 py-10'>
-          <h1 className='text-[3rem] font-bold'>Hotel Șoimul</h1>
-          <div className='grid grid-cols-2 gap-4'>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
-              <div className='flex items-center gap-3'>
-                <i className='fa fa-file-lines fa-regular text-xl font-medium' />
-                <label className='text-base font-medium'>
-                  Județe repartizate
-                </label>
-                <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+      <div className='flex flex-col border-b-4 py-10 pl-20 md:px-8'>
+        <h1 className='hidden text-[3rem] font-bold md:block'>Hotel Șoimul</h1>
+        <div className='flex md:flex-col'>
+          <div className='flex grow basis-0 flex-col gap-12 py-10'>
+            <h1 className='text-[3rem] font-bold md:hidden'>Hotel Șoimul</h1>
+            <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
+                <div className='flex items-center gap-3'>
+                  <i className='fa fa-file-lines fa-regular text-xl font-medium' />
+                  <label className='text-base font-medium md:text-center'>
+                    Județe repartizate
+                  </label>
+                  <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Adresă</h1>
-              <div className='flex flex-col'>
-                <label className='text-base font-medium'>
-                  Str. Valea Sticlăriei
-                </label>
-                <label className='text-base font-medium'>
-                  Cod poştal 500001
-                </label>
-                <label className='text-base font-medium'>
-                  Poiana Braşov, România
-                </label>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Adresă</h1>
+                <div className='flex flex-col'>
+                  <label className='text-base font-medium md:text-center'>
+                    Str. Valea Sticlăriei
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    Cod poştal 500001
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    Poiana Braşov, România
+                  </label>
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Contact</h1>
-              <div className='flex flex-col'>
-                <label className='text-base font-medium'>
-                  receptie@hotelsoimul.ro
-                </label>
-                <label className='text-base font-medium'>+40 766 622 474</label>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Contact</h1>
+                <div className='flex flex-col'>
+                  <label className='text-base font-medium md:text-center'>
+                    receptie@hotelsoimul.ro
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    +40 766 622 474
+                  </label>
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Website</h1>
-              <div className='flex flex-col'>
-                <a
-                  href='https://hotelsoimul.ro/'
-                  className='text-base font-medium'
-                >
-                  https://hotelsoimul.ro/
-                </a>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Website</h1>
+                <div className='flex flex-col'>
+                  <a
+                    href='https://hotelsoimul.ro/'
+                    className='text-base font-medium md:text-center'
+                  >
+                    https://hotelsoimul.ro/
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className='relative grow basis-0'>
-          <SVG1 />
+          <div className='relative grow basis-0'>
+            <SVG1 />
+          </div>
         </div>
       </div>
-      <div className='flex py-10 pr-20'>
-        <div className='relative grow basis-0'>
-          <SVG2 />
-        </div>
-        <div className='flex grow basis-0 flex-col gap-12 py-10'>
-          <h1 className='text-[3rem] font-bold'>Ana Hotels Hotel Sport</h1>
-          <div className='grid grid-cols-2 gap-4'>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
-              <div className='flex items-center gap-3'>
-                <i className='fa fa-file-lines fa-regular text-xl font-medium' />
-                <label className='text-base font-medium'>
-                  Județe repartizate
-                </label>
-                <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+      <div className='flex flex-col border-b-4 py-10 pl-20 md:px-8'>
+        <h1 className='hidden text-[3rem] font-bold md:block'>
+          Ana Hotels Hotel Sport
+        </h1>
+        <div className='flex md:flex-col-reverse'>
+          <div className='relative grow basis-0'>
+            <SVG2 />
+          </div>
+          <div className='flex grow basis-0 flex-col gap-12 py-10'>
+            <h1 className='text-[3rem] font-bold md:hidden'>
+              Ana Hotels Hotel Sport
+            </h1>
+            <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
+                <div className='flex items-center gap-3'>
+                  <i className='fa fa-file-lines fa-regular text-xl font-medium' />
+                  <label className='text-base font-medium md:text-center'>
+                    Județe repartizate
+                  </label>
+                  <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Adresă</h1>
-              <div className='flex flex-col'>
-                <label className='text-base font-medium'>
-                  Str. Valea Sticlăriei
-                </label>
-                <label className='text-base font-medium'>
-                  Cod poştal 500001
-                </label>
-                <label className='text-base font-medium'>
-                  Poiana Braşov, România
-                </label>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Adresă</h1>
+                <div className='flex flex-col'>
+                  <label className='text-base font-medium md:text-center'>
+                    Str. Valea Sticlăriei
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    Cod poştal 500001
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    Poiana Braşov, România
+                  </label>
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Contact</h1>
-              <div className='flex flex-col'>
-                <label className='text-base font-medium'>
-                  receptie@hotelsoimul.ro
-                </label>
-                <label className='text-base font-medium'>+40 766 622 474</label>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Contact</h1>
+                <div className='flex flex-col'>
+                  <label className='text-base font-medium md:text-center'>
+                    receptie@hotelsoimul.ro
+                  </label>
+                  <label className='text-base font-medium md:text-center'>
+                    +40 766 622 474
+                  </label>
+                </div>
               </div>
-            </div>
-            <div className='flex flex-col items-start'>
-              <h1 className='text-[2rem] font-semibold'>Website</h1>
-              <div className='flex flex-col'>
-                <a
-                  href='https://hotelsoimul.ro/'
-                  className='text-base font-medium'
-                >
-                  https://hotelsoimul.ro/
-                </a>
+              <div className='flex flex-col items-start md:items-center'>
+                <h1 className='text-[2rem] font-semibold'>Website</h1>
+                <div className='flex flex-col'>
+                  <a
+                    href='https://hotelsoimul.ro/'
+                    className='text-base font-medium md:text-center'
+                  >
+                    https://hotelsoimul.ro/
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -118,7 +132,7 @@ export default function () {
 
 const SVG1 = () => (
   <svg
-    className='absolute h-full w-full'
+    className='absolute h-full w-full md:static'
     xmlns='http://www.w3.org/2000/svg'
     xmlnsXlink='http://www.w3.org/1999/xlink'
     width='694'
@@ -168,7 +182,7 @@ const SVG1 = () => (
 
 const SVG2 = () => (
   <svg
-    className='absolute h-full w-full'
+    className='absolute h-full w-full md:static'
     xmlns='http://www.w3.org/2000/svg'
     xmlnsXlink='http://www.w3.org/1999/xlink'
     width='694'

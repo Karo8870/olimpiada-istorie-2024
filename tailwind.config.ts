@@ -18,6 +18,7 @@ const config = {
     },
     screens: {
       lg: { max: '1440px' },
+      nav: { max: '1220px' },
       md: { max: '1100px' },
       sm: { max: '576px' },
 

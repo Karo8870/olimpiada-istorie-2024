@@ -32,9 +32,9 @@ function Program() {
               date === '28.04.2024' ? 'bg-secondary py-10' : 'bg-primary py-5'
             )}
           >
-            <div className='flex justify-between'>
+            <div className='flex items-center justify-between'>
               <div className='flex flex-col'>
-                <label className='text-xl font-semibold'>SAMBATA</label>
+                <label className='text-xl font-semibold'>SÂMBĂTĂ</label>
                 <label className='text-base font-semibold'>27.04.2024</label>
               </div>
               <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
@@ -48,9 +48,9 @@ function Program() {
               date === '28.04.2024' ? 'bg-secondary py-10' : 'bg-primary py-5'
             )}
           >
-            <div className='flex justify-between'>
+            <div className='flex items-center justify-between'>
               <div className='flex flex-col'>
-                <label className='text-xl font-semibold'>DUMINICA</label>
+                <label className='text-xl font-semibold'>DUMINICĂ</label>
                 <label className='text-base font-semibold'>28.04.2024</label>
               </div>
               <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
@@ -64,7 +64,7 @@ function Program() {
               date === '28.04.2024' ? 'bg-secondary py-10' : 'bg-primary py-5'
             )}
           >
-            <div className='flex justify-between'>
+            <div className='flex items-center justify-between'>
               <div className='flex flex-col'>
                 <label className='text-xl font-semibold'>LUNI</label>
                 <label className='text-base font-semibold'>29.04.2024</label>
@@ -80,9 +80,9 @@ function Program() {
               date === '28.04.2024' ? 'bg-secondary py-10' : 'bg-primary py-5'
             )}
           >
-            <div className='flex justify-between'>
+            <div className='flex items-center justify-between'>
               <div className='flex flex-col'>
-                <label className='text-xl font-semibold'>MARTI</label>
+                <label className='text-xl font-semibold'>MARȚI</label>
                 <label className='text-base font-semibold'>30.04.2024</label>
               </div>
               <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
@@ -96,7 +96,7 @@ function Program() {
               date === '28.04.2024' ? 'bg-secondary py-10' : 'bg-primary py-5'
             )}
           >
-            <div className='flex justify-between'>
+            <div className='flex items-center justify-between'>
               <div className='flex flex-col'>
                 <label className='text-xl font-semibold'>MIERCURI</label>
                 <label className='text-base font-semibold'>01.05.2024</label>
