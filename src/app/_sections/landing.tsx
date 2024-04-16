@@ -1,6 +1,7 @@
 import '@/lib/fontawesome/css/fa.css';
 import LargeButton from '@/components/large-button';
 import { Button } from '@nextui-org/react';
+import Link from 'next/link';
 
 export default function Landing() {
   return (
@@ -33,7 +34,7 @@ export default function Landing() {
             {/*  semper scelerisque condimentum. Phasellus luctus lacus nec dolor*/}
             {/*  fermentum rhoncus. Sed at dolor justo.*/}
             {/*</p>*/}
-            <Button color='default' className='self-start text-white sm:hidden'>
+            <Button as={Link} href='/concurs' color='default' className='self-start text-white sm:hidden'>
               Vezi mai multe despre concurs
               <i className='fa fa-arrow-right ml-2'></i>
             </Button>

@@ -10,8 +10,8 @@ import '@/lib/fontawesome/css/fa.css';
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Olimpiada națională de istorie 2024',
-  description: 'Olimpiada națională de istorie 2024'
+  title: 'Olimpiada de Istorie - Etapa Națională 2024',
+  description: 'Olimpiada de Istorie - Etapa Națională 2024'
 };
 
 export default function RootLayout({

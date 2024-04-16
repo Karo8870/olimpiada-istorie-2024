@@ -66,9 +66,9 @@ export default function AppNavbar() {
           <a href='/jurnal' className='text-base uppercase font-bold'>
             Jurnalul Olimpiadei
           </a>
-          <a href='/' className='text-base uppercase font-bold'>
-            Parteneri și sponsori
-          </a>
+          {/*<a href='/' className='text-base uppercase font-bold'>*/}
+          {/*  Parteneri și sponsori*/}
+          {/*</a>*/}
         </div>
         <div className={`grow basis-0 ${navMode ? 'hidden' : ''}`}></div>
       </nav>
@@ -117,13 +117,10 @@ export default function AppNavbar() {
             Program
           </a>
           <a href='/informatii' className='text-3xl font-bold'>
-            Informații
+            Informații utile
           </a>
           <a href='/jurnal' className='text-3xl font-bold'>
-            Jurnal
-          </a>
-          <a href='/contact' className='text-3xl font-bold'>
-            Contact
+            Jurnalul olimpiadei
           </a>
         </div>
       </div>
