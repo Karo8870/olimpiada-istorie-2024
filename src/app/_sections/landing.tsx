@@ -7,7 +7,7 @@ export default function Landing() {
     <section className='flex min-h-screen w-full flex-col justify-center gap-8 px-8 pb-4 pt-40'>
       <div className='flex grow basis-0 gap-2 sm:flex-col'>
         <div className='flex grow basis-0 flex-col justify-center'>
-          <div className='flex max-h-[500px] grow flex-col justify-between gap-4'>
+          <div className='flex max-h-[500px] grow flex-col justify-around gap-4'>
             <div className='flex items-center'>
               <img
                 className='w-40 sm:w-28'
@@ -46,27 +46,27 @@ export default function Landing() {
       <div className='flex w-full items-stretch gap-4 sm:flex-col'>
         <LargeButton
           text='Mesaje de bun venit'
-          className='bg-primary'
+          className='bg-primary uppercase'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
-          text='Despre Brașov'
-          className='bg-secondary'
+          text='Brașov'
+          className='bg-secondary uppercase'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
           link='#saguna'
-          text='Despre Colegiul Național „Andrei Șaguna”'
-          className='bg-secondary text-black sm:hidden'
+          text='Colegiul Național „Andrei Șaguna”'
+          className='bg-secondary text-black sm:hidden uppercase'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
           link='#saguna'
           text='Colegiul „Andrei Șaguna”'
-          className='hidden bg-secondary text-black sm:flex'
+          className='hidden bg-secondary text-black sm:flex uppercase'
           iconBg='bg-black'
           iconColor='text-white'
         />

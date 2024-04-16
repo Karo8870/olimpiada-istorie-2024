@@ -63,17 +63,17 @@ export default function () {
           </div>
         </div>
       </div>
-      <div className='flex flex-col border-b-4 py-10 pl-20 md:px-8'>
+      <div className='flex flex-col border-b-4 py-10 md:px-8'>
         <h1 className='hidden text-[3rem] font-bold md:block'>
           Ana Hotels Hotel Sport
         </h1>
         <div className='flex md:flex-col-reverse'>
-          <div className='relative grow basis-0'>
-            <SVG2 />
+          <div className='grow flex justify-center basis-0'>
+            <img alt='ana hotels' src='/ana.png' className='object-cover border-4 border-black rounded-2xl h-full w-3/4 md:static' />
           </div>
           <div className='flex grow basis-0 flex-col gap-12 py-10'>
             <h1 className='text-[3rem] font-bold md:hidden'>
-              Ana Hotels Hotel Sport
+              Ana Hotels Hotel Poiana
             </h1>
             <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
               <div className='flex flex-col items-start md:items-center'>
@@ -104,7 +104,7 @@ export default function () {
                 <h1 className='text-[2rem] font-semibold'>Contact</h1>
                 <div className='flex flex-col'>
                   <label className='text-base font-medium md:text-center'>
-                    reservation-hotelsport@anahotels.ro
+                    reservation-hotelpoiana@anahotels.ro
                   </label>
                   <label className='text-base font-medium md:text-center'>
                     +40 268 407 330
@@ -115,10 +115,10 @@ export default function () {
                 <h1 className='text-[2rem] font-semibold'>Website</h1>
                 <div className='flex flex-col'>
                   <a
-                    href='https://www.anahotels.ro/ro/sport/'
+                    href='https://www.anahotels.ro/ro/poiana'
                     className='text-base font-medium md:text-center'
                   >
-                    https://www.anahotels.ro/ro/sport/
+                    https://www.anahotels.ro/ro/poiana
                   </a>
                 </div>
               </div>
