@@ -1,21 +1,21 @@
 export default function () {
   return (
-    <section className='flex flex-col gap-8 px-16'>
-      <div className='relative flex w-full flex-col items-center bg-cover'>
+    <section className='flex h-screen flex-col gap-8 px-16 pb-16 pt-32 md:h-auto md:px-4'>
+      <div className='relative flex w-full grow basis-0 flex-col items-center justify-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
           src='/poianabrasov.png'
           alt='Poiana Brasov'
         />
-        <div className='mb-48 mt-48 flex w-[80%] max-w-[60rem] flex-col items-center'>
+        <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>
           <h1 className='relative z-10 text-[3rem] font-bold text-white md:text-3xl'>
             Informații utile
           </h1>
         </div>
       </div>
-      <div className='flex w-full justify-between gap-3'>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16'>
-          <div className='flex flex-col items-center gap-3'>
+      <div className='flex w-full justify-between gap-3 md:flex-col'>
+        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+          <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-bed-front text-3xl' />
             <label className='text-xl font-semibold'>Cazare</label>
           </div>
@@ -27,14 +27,17 @@ export default function () {
             />
           </div>
         </div>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16'>
-          <div className='flex flex-col items-center gap-3'>
+        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+          <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-bus  text-3xl' />
             <div className='flex flex-col'>
-              <label className='text-center text-xl font-semibold'>
+              <label className='hidden text-center text-xl font-semibold md:block'>
+                Transport și adrese utile
+              </label>
+              <label className='block text-center text-xl font-semibold md:hidden'>
                 Transport
               </label>
-              <label className='text-center text-xl font-semibold'>
+              <label className='block text-center text-xl font-semibold md:hidden'>
                 și adrese utile
               </label>
             </div>
@@ -47,8 +50,8 @@ export default function () {
             />
           </div>
         </div>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16'>
-          <div className='flex flex-col items-center gap-3'>
+        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+          <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-phone text-3xl' />
             <label className='text-xl font-semibold'>Telefon Urgențe</label>
           </div>

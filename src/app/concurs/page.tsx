@@ -36,7 +36,7 @@ function Sections() {
         </label>
         <label className='flex items-center text-xl font-semibold'>
           <i className='fa fa-regular fa-file-lines mr-2'></i>
-          <span>Comisia de centrală</span>
+          <span>Comisia centrală</span>
           <i className='fa fa-arrow-right ml-2'></i>
         </label>
         <label className='flex items-center text-xl font-semibold'>

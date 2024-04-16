@@ -6,7 +6,7 @@ export default function () {
           Telefon urgențe
         </h1>
       </div>
-      <div className='grid grid-cols-3 gap-6 px-12 pb-16 pt-12'>
+      <div className='grid grid-cols-3 gap-6 px-12 pb-16 pt-12 md:grid-cols-2 sm:grid-cols-1'>
         <div className='flex items-center justify-between rounded-[1.5rem] border-3 bg-danger p-4'>
           <div className='flex flex-col'>
             <label className='text-[1.5rem] font-semibold'>

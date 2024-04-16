@@ -37,14 +37,17 @@ export default function AppNavbar() {
               <img className='h-[8vh]' src='/logos/saguna.jpg' alt='icon' />
             </div>
           </div>
-          <Link href='/' className={`flex flex-col items-center cursor-pointer`}>
+          <Link
+            href='/'
+            className={`flex cursor-pointer flex-col items-center`}
+          >
             <label
-              className={`cursor-pointer text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+              className={`cursor-pointer text-center font-bold nav:text-[.75rem] ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
               OLIMPIADA DE ISTORIE - ETAPA NAȚIONALĂ
             </label>
             <label
-              className={`cursor-pointer text-center font-bold ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
+              className={`cursor-pointer text-center font-bold nav:text-[.75rem] ${navMode ? 'text-[0px] text-white' : 'text-[1rem] text-black'}`}
             >
               EDIȚIA XLVII, 2024
             </label>
