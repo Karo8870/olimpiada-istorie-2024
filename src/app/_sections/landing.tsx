@@ -58,15 +58,15 @@ export default function Landing() {
         />
         <LargeButton
           text='Despre Colegiul Național „Andrei Șaguna”'
-          className='bg-[#000000] text-white sm:hidden'
-          iconBg='bg-white'
-          iconColor='text-black'
+          className='bg-secondary text-black sm:hidden'
+          iconBg='bg-black'
+          iconColor='text-white'
         />
         <LargeButton
           text='Colegiul „Andrei Șaguna”'
-          className='hidden bg-[#000000] text-white sm:flex'
-          iconBg='bg-white'
-          iconColor='text-black'
+          className='hidden bg-secondary text-black sm:flex'
+          iconBg='bg-black'
+          iconColor='text-white'
         />
       </div>
     </section>

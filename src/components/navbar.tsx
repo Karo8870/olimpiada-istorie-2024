@@ -1,6 +1,6 @@
 'use client';
 
-import useNav from '@/components/useNav';
+import useNav from '@/hooks/useNav';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -51,19 +51,19 @@ export default function AppNavbar() {
           </Link>
         </div>
         <div className={`flex items-center justify-center gap-8`}>
-          <a href='/concurs' className='text-base font-bold'>
+          <a href='/concurs' className='text-base uppercase font-bold'>
             Concurs
           </a>
-          <a href='/program' className='text-base font-bold'>
+          <a href='/program' className='text-base uppercase font-bold'>
             Program
           </a>
-          <a href='/informatii' className='text-base font-bold'>
+          <a href='/informatii' className='text-base uppercase font-bold'>
             Informații utile
           </a>
-          <a href='/jurnal' className='text-base font-bold'>
-            Jurnalul olimpiadei
+          <a href='/jurnal' className='text-base uppercase font-bold'>
+            Jurnalul Olimpiadei
           </a>
-          <a href='/' className='text-base font-bold'>
+          <a href='/' className='text-base uppercase font-bold'>
             Parteneri și sponsori
           </a>
         </div>
@@ -98,15 +98,7 @@ export default function AppNavbar() {
           />
         </div>
         <div className='flex items-center justify-between pr-4'>
-          <img className='h-12 w-12' src='logo.png' alt='icon' />
-          {/*<div className='flex flex-col'>*/}
-          {/*  <label className={`'text-[1rem] text-center font-bold text-black`}>*/}
-          {/*    OLIMPIADA DE ISTORIE - ETAPA NATIONALA*/}
-          {/*  </label>*/}
-          {/*  <label className={`text-center text-[1rem] font-bold text-black`}>*/}
-          {/*    EDITIA XLVII, 2024*/}
-          {/*  </label>*/}
-          {/*</div>*/}
+          <img className='h-12 w-12' src='/logo.png' alt='icon' />
           <i
             onClick={() => {
               setOpen(!open);

@@ -79,7 +79,7 @@ export default function () {
               <h1 className='text-[2rem] font-semibold'>Adresă</h1>
               <div className='flex flex-col'>
                 <label className='text-base font-medium'>
-                  Str. Valea Sticlăriei
+                  Strada Valea Dragă
                 </label>
                 <label className='text-base font-medium'>
                   Cod poştal 500001
@@ -93,19 +93,19 @@ export default function () {
               <h1 className='text-[2rem] font-semibold'>Contact</h1>
               <div className='flex flex-col'>
                 <label className='text-base font-medium'>
-                  receptie@hotelsoimul.ro
+                  reservation-hotelsport@anahotels.ro
                 </label>
-                <label className='text-base font-medium'>+40 766 622 474</label>
+                <label className='text-base font-medium'>+40 268 407 330</label>
               </div>
             </div>
             <div className='flex flex-col items-start'>
               <h1 className='text-[2rem] font-semibold'>Website</h1>
               <div className='flex flex-col'>
                 <a
-                  href='https://hotelsoimul.ro/'
+                  href='https://www.anahotels.ro/ro/sport/'
                   className='text-base font-medium'
                 >
-                  https://hotelsoimul.ro/
+                  https://www.anahotels.ro/ro/sport/
                 </a>
               </div>
             </div>

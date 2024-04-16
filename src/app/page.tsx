@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <main className='bg-background'>
         <Landing />
-        <Welcome />
-        <Brasov />
+        {/*<Welcome />*/}
+        {/*<Brasov />*/}
         <Saguna />
       </main>
     </>
