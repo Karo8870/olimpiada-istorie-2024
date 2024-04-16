@@ -2,7 +2,7 @@
 
 export default function Saguna() {
   return (
-    <section className='flex flex-col items-center border-t-4 border-black justify-center bg-primary py-16'>
+    <section id='saguna' className='flex flex-col items-center border-t-4 border-black justify-center bg-primary py-16'>
       <h1 className='pb-12 text-center text-5xl font-bold sm:text-3xl'>
         Despre Colegiul Național „Andrei Șaguna”
       </h1>

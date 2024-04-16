@@ -57,12 +57,14 @@ export default function Landing() {
           iconColor='text-white'
         />
         <LargeButton
+          link='#saguna'
           text='Despre Colegiul Național „Andrei Șaguna”'
           className='bg-secondary text-black sm:hidden'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
+          link='#saguna'
           text='Colegiul „Andrei Șaguna”'
           className='hidden bg-secondary text-black sm:flex'
           iconBg='bg-black'
