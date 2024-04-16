@@ -27,12 +27,12 @@ export default function Landing() {
                 </h2>
               </div>
             </div>
-            <p className='text-[1.25rem] font-medium sm:text-base'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              id massa sagittis, ultricies tellus vitae, sodales nunc. Morbi
-              semper scelerisque condimentum. Phasellus luctus lacus nec dolor
-              fermentum rhoncus. Sed at dolor justo.
-            </p>
+            {/*<p className='text-[1.25rem] font-medium sm:text-base'>*/}
+            {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque*/}
+            {/*  id massa sagittis, ultricies tellus vitae, sodales nunc. Morbi*/}
+            {/*  semper scelerisque condimentum. Phasellus luctus lacus nec dolor*/}
+            {/*  fermentum rhoncus. Sed at dolor justo.*/}
+            {/*</p>*/}
             <Button color='default' className='self-start text-white sm:hidden'>
               Vezi mai multe despre concurs
               <i className='fa fa-arrow-right ml-2'></i>
