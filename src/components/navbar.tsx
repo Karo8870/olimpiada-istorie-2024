@@ -66,7 +66,7 @@ export default function AppNavbar() {
           <a href='/jurnal' className='text-base font-bold uppercase'>
             Jurnalul Olimpiadei
           </a>
-          <a href='/jurnal' className='text-base font-bold uppercase'>
+          <a href='/noutati' className='text-base font-bold uppercase'>
             Noutăți
           </a>
           {/*<a href='/' className='text-base uppercase font-bold'>*/}
