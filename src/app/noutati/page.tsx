@@ -1,6 +1,6 @@
 export default function Noutati() {
   return (
-    <main className='flex flex-col gap-8 px-16 pb-16 pt-32 sm:px-4'>
+    <main className='flex flex-col gap-8 px-16 pb-16 pt-36 sm:px-4'>
       <div className='relative flex w-full flex-col items-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'

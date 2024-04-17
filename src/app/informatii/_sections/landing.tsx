@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function () {
   return (
-    <section className='flex h-screen flex-col gap-8 px-16 pb-16 pt-32 md:h-auto md:px-4'>
+    <section className='flex h-screen flex-col gap-8 px-16 pb-16 pt-36 md:h-auto md:px-4'>
       <div className='relative flex w-full grow basis-0 flex-col items-center justify-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'

@@ -11,7 +11,7 @@ export default function Program() {
 
   return (
     <main className='flex flex-col'>
-      <div className='flex h-screen flex-col gap-8 pb-16 pt-32 sm:h-auto sm:pb-8'>
+      <div className='flex h-screen flex-col gap-8 pb-16 pt-36 sm:h-auto sm:pb-8'>
         <div className='grow basis-0 px-16 sm:px-4'>
           <div className='relative flex h-full w-full flex-col items-center justify-center bg-cover px-16'>
             <img
