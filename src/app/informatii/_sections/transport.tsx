@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function () {
   return (
     <section id='transport'>
@@ -12,7 +14,7 @@ export default function () {
             Transport in comun - RATBV
           </h1>
           <div className='flex gap-6 sm:flex-col sm:gap-3'>
-            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-primary px-5 py-4'>
+            <Link target='_blank' href='https://ratbv.ro/trasee-si-orare/' className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-primary px-5 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold sm:text-xl'>
                   RATBV
@@ -22,8 +24,8 @@ export default function () {
                 </label>
               </div>
               <i className='fa fa-arrow-right text-xl' />
-            </div>
-            <div className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-secondary px-5 py-4'>
+            </Link>
+            <Link target='_blank' href='https://www.ratbv.ro/afisaje/20-dus.html' className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-secondary px-5 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold sm:text-xl'>
                   RATBV
@@ -36,10 +38,10 @@ export default function () {
                 </label>
               </div>
               <i className='fa fa-arrow-right text-xl' />
-            </div>
+            </Link>
           </div>
           <h1 className='text-[3rem] font-bold sm:text-3xl'>Adrese utile</h1>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
+          <Link target='_blank' href='https://maps.app.goo.gl/wWjCGH9NcKD1n2tC7' className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold sm:text-xl'>
@@ -51,8 +53,8 @@ export default function () {
               </div>
               <i className='fa fa-arrow-right text-xl' />
             </div>
-          </div>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-secondary'>
+          </Link>
+          <Link target='_blank' href='https://maps.app.goo.gl/guztefT4PTQw3rNv7' className='flex flex-col rounded-[1.5rem] border-3 bg-secondary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold sm:text-xl'>
@@ -64,8 +66,8 @@ export default function () {
               </div>
               <i className='fa fa-arrow-right text-xl' />
             </div>
-          </div>
-          <div className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
+          </Link>
+          <Link target='_blank' href='https://maps.app.goo.gl/CmnBJuWeUF1jBiw6A' className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
             <div className='flex items-center justify-between px-4 py-4'>
               <div className='flex flex-col'>
                 <label className='text-[1.5rem] font-semibold sm:text-xl'>
@@ -77,7 +79,7 @@ export default function () {
               </div>
               <i className='fa fa-arrow-right text-xl' />
             </div>
-          </div>
+          </Link>
         </div>
         <div className='grow basis-0'>
           <iframe
