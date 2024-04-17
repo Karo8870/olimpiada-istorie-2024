@@ -9,7 +9,7 @@ export default function Landing() {
       <div className='flex grow basis-0 gap-2 sm:flex-col'>
         <div className='flex grow basis-0 flex-col justify-center'>
           <div className='flex max-h-[500px] grow flex-col justify-around gap-4'>
-            <div className='flex flex-col items-center mb-8 pr-10'>
+            <div className='mb-8 flex flex-col items-center pr-10 sm:mb-0 sm:pr-0'>
               <img
                 className='w-56 sm:w-28'
                 src='/logo.png'
@@ -17,7 +17,7 @@ export default function Landing() {
                 title='By Adela Florea'
               />
               <div className='flex flex-col'>
-                <h1 className='text-center pt-4 text-[2.6rem] font-semibold sm:text-2xl'>
+                <h1 className='pt-4 text-center text-[2.6rem] font-semibold sm:text-2xl'>
                   OLIMPIADA DE ISTORIE
                 </h1>
                 <h1 className='text-center text-[2.6rem] font-semibold sm:text-2xl'>
@@ -27,7 +27,13 @@ export default function Landing() {
                   EDIȚIA XLVII, 2024
                 </h2>
               </div>
-              <Button as={Link} href='/concurs' color='default' size='lg' className='mt-6 text-white sm:hidden'>
+              <Button
+                as={Link}
+                href='/concurs'
+                color='default'
+                size='lg'
+                className='mt-6 text-white sm:hidden'
+              >
                 Vezi mai multe despre concurs
                 <i className='fa fa-arrow-right ml-2'></i>
               </Button>
@@ -38,7 +44,6 @@ export default function Landing() {
             {/*  semper scelerisque condimentum. Phasellus luctus lacus nec dolor*/}
             {/*  fermentum rhoncus. Sed at dolor justo.*/}
             {/*</p>*/}
-
           </div>
         </div>
         <div className='relative grow basis-0'>
@@ -61,14 +66,14 @@ export default function Landing() {
         <LargeButton
           link='#saguna'
           text='Colegiul Național „Andrei Șaguna”'
-          className='bg-secondary text-black sm:hidden uppercase'
+          className='bg-secondary uppercase text-black sm:hidden'
           iconBg='bg-black'
           iconColor='text-white'
         />
         <LargeButton
           link='#saguna'
           text='Colegiul „Andrei Șaguna”'
-          className='hidden bg-secondary text-black sm:flex uppercase'
+          className='hidden bg-secondary uppercase text-black sm:flex'
           iconBg='bg-black'
           iconColor='text-white'
         />

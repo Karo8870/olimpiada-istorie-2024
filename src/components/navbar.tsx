@@ -66,6 +66,9 @@ export default function AppNavbar() {
           <a href='/jurnal' className='text-base font-bold uppercase'>
             Jurnalul Olimpiadei
           </a>
+          <a href='/jurnal' className='text-base font-bold uppercase'>
+            Noutăți
+          </a>
           {/*<a href='/' className='text-base uppercase font-bold'>*/}
           {/*  Parteneri și sponsori*/}
           {/*</a>*/}
@@ -75,27 +78,27 @@ export default function AppNavbar() {
       <div className='fixed left-0 top-0 z-10 hidden w-full flex-col bg-white p-2 md:flex'>
         <div className={`flex justify-center pb-2`}>
           <img
-            className='h-12 w-12 object-contain'
+            className='h-16 w-16 object-contain'
             src='/logos/isj.png'
             alt='icon'
           />
           <img
-            className='h-12 w-12 object-contain'
+            className='h-16 w-28 object-contain'
             src='/logos/me.png'
             alt='icon'
           />
           <img
-            className='h-12 w-12 object-contain'
+            className='h-16 w-16 object-contain'
             src='/logos/primaria.png'
             alt='icon'
           />
           <img
-            className='h-12 w-12 object-contain'
+            className='h-16 w-16 object-contain'
             src='/logos/consiliu.png'
             alt='icon'
           />
           <img
-            className='h-12 w-12 object-contain'
+            className='h-16 w-16 object-contain'
             src='/logos/saguna.jpg'
             alt='icon'
           />
@@ -111,18 +114,21 @@ export default function AppNavbar() {
             className='fa-solid fa-bars text-2xl'
           />
         </div>
-        <div className={`flex-col gap-3 py-4 ${open ? 'flex' : 'hidden'}`}>
-          <a href='/concurs' className='text-3xl font-bold'>
+        <div className={`flex-col gap-5 py-4 ${open ? 'flex' : 'hidden'}`}>
+          <a href='/concurs' className='text-2xl pl-4 font-bold uppercase'>
             Concurs
           </a>
-          <a href='/program' className='text-3xl font-bold'>
+          <a href='/program' className='text-2xl pl-4 font-bold uppercase'>
             Program
           </a>
-          <a href='/informatii' className='text-3xl font-bold'>
+          <a href='/informatii' className='text-2xl pl-4 font-bold uppercase'>
             Informații utile
           </a>
-          <a href='/jurnal' className='text-3xl font-bold'>
+          <a href='/jurnal' className='text-2xl pl-4 font-bold uppercase'>
             Jurnalul olimpiadei
+          </a>
+          <a href='/noutati' className='text-2xl pl-4 font-bold uppercase'>
+            Noutăți
           </a>
         </div>
       </div>

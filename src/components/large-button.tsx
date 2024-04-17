@@ -21,7 +21,7 @@ export default function LargeButton({
   return (
     <Link
       href={link ?? ''}
-      className={`sm:grow-1 cursor-pointer flex w-full flex-grow basis-0 items-center justify-between rounded-[2rem] border-3 border-black px-4 py-2 sm:basis-0 sm:px-2 sm:py-1 ${className}`}
+      className={`sm:grow-1 cursor-pointer flex w-full flex-grow basis-0 items-center justify-between rounded-[2rem] border-3 border-black px-4 py-2 sm:basis-0 sm:pr-1 sm:pl-4 sm:py-1 ${className}`}
     >
 
         <label className='text-lg font-semibold sm:text-base'>{text}</label>
