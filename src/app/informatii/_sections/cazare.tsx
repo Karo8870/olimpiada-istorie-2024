@@ -1,17 +1,19 @@
 export default function () {
   return (
     <section id='cazare' className='flex w-full flex-col'>
-      <div className='w-full bg-black py-8'>
-        <h1 className='text-center text-[3rem] font-bold text-white'>Cazare</h1>
+      <div className='w-full bg-black py-8 sm:py-6'>
+        <h1 className='text-center text-[3rem] font-bold text-white sm:text-2xl'>
+          Cazare
+        </h1>
       </div>
       <div className='flex flex-col border-b-4 py-10 pl-20 md:px-8'>
-        <h1 className='hidden text-[3rem] font-bold md:block'>Hotel ȘOIMUL</h1>
+        <h1 className='hidden text-[2rem] self-center font-bold md:block'>Hotel ȘOIMUL</h1>
         <div className='flex md:flex-col'>
           <div className='flex grow basis-0 flex-col gap-12 py-10'>
             <h1 className='text-[3rem] font-bold md:hidden'>Hotel ȘOIMUL</h1>
             <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Repartizare</h1>
                 <div className='flex items-center gap-3'>
                   <i className='fa fa-file-lines fa-regular text-xl font-medium' />
                   <label className='text-base font-medium md:text-center'>
@@ -21,7 +23,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Adresă</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Adresă</h1>
                 <div className='flex flex-col'>
                   <label className='text-base font-medium md:text-center'>
                     Str. Valea Sticlăriei
@@ -35,7 +37,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Contact</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Contact</h1>
                 <div className='flex flex-col'>
                   <label className='text-base font-medium md:text-center'>
                     receptie@hotelsoimul.ro
@@ -46,7 +48,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Website</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Website</h1>
                 <div className='flex flex-col'>
                   <a
                     href='https://hotelsoimul.ro/'
@@ -68,7 +70,7 @@ export default function () {
         </div>
       </div>
       <div className='flex flex-col border-b-4 py-10 md:px-8'>
-        <h1 className='hidden text-[3rem] font-bold md:block'>
+        <h1 className='hidden text-[2rem] self-center text-center font-bold md:block'>
           Hotel ANA HOTELS POIANA
         </h1>
         <div className='flex md:flex-col-reverse'>
@@ -85,7 +87,7 @@ export default function () {
             </h1>
             <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Repartizare</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Repartizare</h1>
                 <div className='flex items-center gap-3'>
                   <i className='fa fa-file-lines fa-regular text-xl font-medium' />
                   <label className='text-base font-medium md:text-center'>
@@ -95,7 +97,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Adresă</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Adresă</h1>
                 <div className='flex flex-col'>
                   <label className='text-base font-medium md:text-center'>
                     Strada Valea Dragă
@@ -109,7 +111,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Contact</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Contact</h1>
                 <div className='flex flex-col'>
                   <label className='text-base font-medium md:text-center'>
                     reservation-hotelpoiana@anahotels.ro
@@ -120,7 +122,7 @@ export default function () {
                 </div>
               </div>
               <div className='flex flex-col items-start md:items-center'>
-                <h1 className='text-[2rem] font-semibold'>Website</h1>
+                <h1 className='text-[1.5rem] font-semibold'>Website</h1>
                 <div className='flex flex-col'>
                   <a
                     href='https://www.anahotels.ro/ro/poiana'
