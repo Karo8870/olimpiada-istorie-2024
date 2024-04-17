@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section>
+    <section id='transport'>
       <div className='w-full bg-black py-8'>
         <h1 className='text-center text-[3rem] font-bold text-white'>
           Transport și adrese utile

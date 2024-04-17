@@ -9,24 +9,28 @@ export default function Landing() {
       <div className='flex grow basis-0 gap-2 sm:flex-col'>
         <div className='flex grow basis-0 flex-col justify-center'>
           <div className='flex max-h-[500px] grow flex-col justify-around gap-4'>
-            <div className='flex items-center'>
+            <div className='flex flex-col items-center mb-8 pr-10'>
               <img
-                className='w-40 sm:w-28'
+                className='w-56 sm:w-28'
                 src='/logo.png'
                 alt='Logo'
                 title='By Adela Florea'
               />
               <div className='flex flex-col'>
-                <h1 className='text-center text-[2.25rem] font-semibold sm:text-2xl'>
+                <h1 className='text-center pt-4 text-[2.6rem] font-semibold sm:text-2xl'>
                   OLIMPIADA DE ISTORIE
                 </h1>
-                <h1 className='text-center text-[2.25rem] font-semibold sm:text-2xl'>
+                <h1 className='text-center text-[2.6rem] font-semibold sm:text-2xl'>
                   ETAPA NAȚIONALĂ
                 </h1>
-                <h2 className='text-center text-[1.5rem] font-semibold sm:text-base'>
+                <h2 className='text-center text-[1.7rem] font-semibold sm:text-base'>
                   EDIȚIA XLVII, 2024
                 </h2>
               </div>
+              <Button as={Link} href='/concurs' color='default' size='lg' className='mt-6 text-white sm:hidden'>
+                Vezi mai multe despre concurs
+                <i className='fa fa-arrow-right ml-2'></i>
+              </Button>
             </div>
             {/*<p className='text-[1.25rem] font-medium sm:text-base'>*/}
             {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque*/}
@@ -34,10 +38,7 @@ export default function Landing() {
             {/*  semper scelerisque condimentum. Phasellus luctus lacus nec dolor*/}
             {/*  fermentum rhoncus. Sed at dolor justo.*/}
             {/*</p>*/}
-            <Button as={Link} href='/concurs' color='default' className='self-start text-white sm:hidden'>
-              Vezi mai multe despre concurs
-              <i className='fa fa-arrow-right ml-2'></i>
-            </Button>
+
           </div>
         </div>
         <div className='relative grow basis-0'>

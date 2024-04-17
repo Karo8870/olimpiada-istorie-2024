@@ -54,16 +54,16 @@ export default function AppNavbar() {
           </Link>
         </div>
         <div className={`flex items-center justify-center gap-8`}>
-          <a href='/concurs' className='text-base uppercase font-bold'>
+          <a href='/concurs' className='text-base font-bold uppercase'>
             Concurs
           </a>
-          <a href='/program' className='text-base uppercase font-bold'>
+          <a href='/program' className='text-base font-bold uppercase'>
             Program
           </a>
-          <a href='/informatii' className='text-base uppercase font-bold'>
+          <a href='/informatii' className='text-base font-bold uppercase'>
             Informații utile
           </a>
-          <a href='/jurnal' className='text-base uppercase font-bold'>
+          <a href='/jurnal' className='text-base font-bold uppercase'>
             Jurnalul Olimpiadei
           </a>
           {/*<a href='/' className='text-base uppercase font-bold'>*/}
@@ -101,7 +101,9 @@ export default function AppNavbar() {
           />
         </div>
         <div className='flex items-center justify-between pr-4'>
-          <img className='h-12 w-12' src='/logo.png' alt='icon' />
+          <Link href='/'>
+            <img className='h-12 w-12' src='/logo.png' alt='icon' />
+          </Link>
           <i
             onClick={() => {
               setOpen(!open);

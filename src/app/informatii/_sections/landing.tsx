@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function () {
   return (
     <section className='flex h-screen flex-col gap-8 px-16 pb-16 pt-32 md:h-auto md:px-4'>
@@ -14,7 +16,7 @@ export default function () {
         </div>
       </div>
       <div className='flex w-full justify-between gap-3 md:flex-col'>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+        <Link href='#cazare' className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
           <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-bed-front text-3xl' />
             <label className='text-xl font-semibold'>Cazare</label>
@@ -26,8 +28,8 @@ export default function () {
               className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl text-white sm:text-base`}
             />
           </div>
-        </div>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+        </Link>
+        <Link href='#transport' className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
           <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-bus  text-3xl' />
             <div className='flex flex-col'>
@@ -49,8 +51,8 @@ export default function () {
               className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl text-white sm:text-base`}
             />
           </div>
-        </div>
-        <div className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
+        </Link>
+        <Link href='#telefon' className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
           <div className='flex flex-col items-center gap-3 md:items-start'>
             <i className='fa fa-phone text-3xl' />
             <label className='text-xl font-semibold'>Telefon Urgențe</label>
@@ -62,7 +64,7 @@ export default function () {
               className={`fa fa-arrow-down flex aspect-square items-center justify-center p-1 text-xl text-white sm:text-base`}
             />
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );

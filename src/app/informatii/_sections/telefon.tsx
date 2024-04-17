@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className='flex w-full flex-col'>
+    <section id='telefon' className='flex w-full flex-col'>
       <div className='w-full bg-black py-8'>
         <h1 className='text-center text-[3rem] font-bold text-white'>
           Telefon urgențe

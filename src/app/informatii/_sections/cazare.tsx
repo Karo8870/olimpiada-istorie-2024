@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className='flex w-full flex-col'>
+    <section id='cazare' className='flex w-full flex-col'>
       <div className='w-full bg-black py-8'>
         <h1 className='text-center text-[3rem] font-bold text-white'>Cazare</h1>
       </div>
@@ -62,7 +62,7 @@ export default function () {
             <img
               alt='ana hotels'
               src='/soimul.png'
-              className='h-full aspect-video w-3/4 rounded-2xl border-4 border-black object-cover md:static'
+              className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
             />
           </div>
         </div>
