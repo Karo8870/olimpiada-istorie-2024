@@ -54,6 +54,9 @@ export default function AppNavbar() {
           </Link>
         </div>
         <div className={`flex items-center justify-center gap-8`}>
+          <a href='/noutati' className='text-base font-bold uppercase'>
+            Noutăți
+          </a>
           <a href='/concurs' className='text-base font-bold uppercase'>
             Concurs
           </a>
@@ -66,12 +69,9 @@ export default function AppNavbar() {
           <a href='/jurnal' className='text-base font-bold uppercase'>
             Jurnalul Olimpiadei
           </a>
-          <a href='/noutati' className='text-base font-bold uppercase'>
-            Noutăți
+          <a href='/sponsori' className='text-base uppercase font-bold'>
+            Parteneri și sponsori
           </a>
-          {/*<a href='/' className='text-base uppercase font-bold'>*/}
-          {/*  Parteneri și sponsori*/}
-          {/*</a>*/}
         </div>
         <div className={`grow basis-0 ${navMode ? 'hidden' : ''}`}></div>
       </nav>
@@ -115,20 +115,23 @@ export default function AppNavbar() {
           />
         </div>
         <div className={`flex-col gap-5 py-4 ${open ? 'flex' : 'hidden'}`}>
-          <a href='/concurs' className='text-2xl pl-4 font-bold uppercase'>
+          <a href='/noutati' className='pl-4 text-2xl font-bold uppercase'>
+            Noutăți
+          </a>
+          <a href='/concurs' className='pl-4 text-2xl font-bold uppercase'>
             Concurs
           </a>
-          <a href='/program' className='text-2xl pl-4 font-bold uppercase'>
+          <a href='/program' className='pl-4 text-2xl font-bold uppercase'>
             Program
           </a>
-          <a href='/informatii' className='text-2xl pl-4 font-bold uppercase'>
+          <a href='/informatii' className='pl-4 text-2xl font-bold uppercase'>
             Informații utile
           </a>
-          <a href='/jurnal' className='text-2xl pl-4 font-bold uppercase'>
+          <a href='/jurnal' className='pl-4 text-2xl font-bold uppercase'>
             Jurnalul olimpiadei
           </a>
-          <a href='/noutati' className='text-2xl pl-4 font-bold uppercase'>
-            Noutăți
+          <a href='/sponsori' className='pl-4 text-2xl font-bold uppercase'>
+            Parteneri si sponsori
           </a>
         </div>
       </div>
