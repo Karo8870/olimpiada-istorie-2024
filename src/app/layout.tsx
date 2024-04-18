@@ -11,7 +11,10 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Olimpiada de Istorie - Etapa Națională 2024',
-  description: 'Olimpiada de Istorie - Etapa Națională 2024'
+  description: 'Olimpiada de Istorie - Etapa Națională 2024',
+  other: {
+    'google-site-verification': 'OSBUv2oehwIv0pCcPoXph3dRY-7nXTR-IPtIuA6aBJ0'
+  }
 };
 
 export default function RootLayout({
