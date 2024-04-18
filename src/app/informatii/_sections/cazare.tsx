@@ -149,7 +149,6 @@ export default function () {
                       onClick={() => {
                         setTitle('Județe repartizate Hotel ANA HOTELS POIANA');
                         setContent([
-                          'COMISIA CENTRALĂ',
                           'BUCUREȘTI',
                           'VÂLCEA',
                           'HUNEDOARA'
