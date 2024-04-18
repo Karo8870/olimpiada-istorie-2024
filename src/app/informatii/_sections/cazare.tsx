@@ -118,7 +118,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='hotel soimul'
-                src='/soimul.png'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/soimul.png?alt=media&token=3e94edaf-1652-4c65-bb46-1e5bf532f2a5'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
@@ -132,7 +132,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='ana hotels'
-                src='/ana.png'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/ana.png?alt=media&token=476ff807-e676-457e-b4f3-cdcf5cc6e27e'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
@@ -271,7 +271,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='monterai resort'
-                src='/monterai.png'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/monterai.png?alt=media&token=dddb3946-02d0-4801-8d9a-8a104e8782bd'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
@@ -302,98 +302,3 @@ export default function () {
     </>
   );
 }
-
-const SVG1 = () => (
-  <svg
-    className='absolute h-full w-full md:static'
-    xmlns='http://www.w3.org/2000/svg'
-    xmlnsXlink='http://www.w3.org/1999/xlink'
-    width='694'
-    height='524'
-    viewBox='0 0 694 524'
-    fill='none'
-  >
-    <rect
-      x='83.5'
-      y='68.5'
-      width='539'
-      height='403'
-      rx='17.5'
-      fill='url(#pattern0_218_30)'
-      stroke='black'
-      strokeWidth='5'
-    />
-    <defs>
-      <pattern
-        id='pattern0_218_30'
-        patternContentUnits='objectBoundingBox'
-        width='1'
-        height='1'
-      >
-        <use
-          xlinkHref='#image0_218_30'
-          transform='matrix(0.0010981 0 0 0.00146413 -0.0622255 0)'
-        />
-      </pattern>
-      <clipPath id='clip0_218_30'>
-        <rect
-          width='43'
-          height='68.1358'
-          fill='white'
-          transform='translate(652.766 445) rotate(19.5206)'
-        />
-      </clipPath>
-      <image
-        id='image0_218_30'
-        width='1024'
-        height='683'
-        xlinkHref='soimul.png'
-      />
-    </defs>
-  </svg>
-);
-
-const SVG2 = () => (
-  <svg
-    className='absolute h-full w-full md:static'
-    xmlns='http://www.w3.org/2000/svg'
-    xmlnsXlink='http://www.w3.org/1999/xlink'
-    width='694'
-    height='524'
-    viewBox='0 0 694 524'
-    fill='none'
-  >
-    <rect
-      x='83.5'
-      y='68.5'
-      width='539'
-      height='403'
-      rx='17.5'
-      fill='url(#pattern0_218_31)'
-      stroke='black'
-      strokeWidth='5'
-    />
-    <defs>
-      <pattern
-        id='pattern0_218_31'
-        patternContentUnits='objectBoundingBox'
-        width='1'
-        height='1'
-      >
-        <use
-          xlinkHref='#image0_218_31'
-          transform='matrix(0.0010981 0 0 0.00146413 -0.0622255 0)'
-        />
-      </pattern>
-      <clipPath id='clip0_218_31'>
-        <rect
-          width='43'
-          height='68.1358'
-          fill='white'
-          transform='translate(652.766 445) rotate(19.5206)'
-        />
-      </clipPath>
-      <image id='image0_218_31' width='1024' height='683' xlinkHref='ana.png' />
-    </defs>
-  </svg>
-);

@@ -16,7 +16,7 @@ export default function Program() {
           <div className='relative flex h-full w-full flex-col items-center justify-center bg-cover px-16'>
             <img
               className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-              src='/brasov3.jpeg'
+              src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov3.jpeg?alt=media&token=97415289-2544-40c5-b9f0-ecc8a7b71408'
               alt='brasov'
             />
             <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>
@@ -26,8 +26,7 @@ export default function Program() {
             </div>
           </div>
         </div>
-        <div
-          className='grid grid-cols-5 items-center gap-6 px-16 lg:grid-cols-3 md:grid-cols-2 md:gap-4 sm:grid-cols-1 sm:px-4'>
+        <div className='grid grid-cols-5 items-center gap-6 px-16 lg:grid-cols-3 md:grid-cols-2 md:gap-4 sm:grid-cols-1 sm:px-4'>
           <Link
             href='#sambata'
             className={cn(
@@ -46,10 +45,8 @@ export default function Program() {
                   27.04.2024
                 </label>
               </div>
-              <div
-                className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-                <i
-                  className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
+              <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
+                <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
               </div>
             </div>
           </Link>
@@ -71,10 +68,8 @@ export default function Program() {
                   28.04.2024
                 </label>
               </div>
-              <div
-                className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-                <i
-                  className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
+              <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
+                <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
               </div>
             </div>
           </Link>
@@ -94,10 +89,8 @@ export default function Program() {
                   29.04.2024
                 </label>
               </div>
-              <div
-                className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-                <i
-                  className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
+              <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
+                <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
               </div>
             </div>
           </Link>
@@ -119,10 +112,8 @@ export default function Program() {
                   30.04.2024
                 </label>
               </div>
-              <div
-                className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-                <i
-                  className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
+              <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
+                <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
               </div>
             </div>
           </Link>
@@ -144,10 +135,8 @@ export default function Program() {
                   01.05.2024
                 </label>
               </div>
-              <div
-                className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
-                <i
-                  className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
+              <div className='flex aspect-square h-[3rem] items-center justify-center rounded-full bg-black lg:h-[2rem]'>
+                <i className='fa fa-arrow-right max-xl:text-base flex aspect-square items-center justify-center p-1 text-xl text-white lg:p-0.5 lg:text-sm sm:rotate-90' />
               </div>
             </div>
           </Link>
@@ -409,7 +398,10 @@ export default function Program() {
         </div>
       </div>
 
-      <div id='marti' className='grid grid-cols-1 divide-y-4 border-y-4 border-black'>
+      <div
+        id='marti'
+        className='grid grid-cols-1 divide-y-4 border-y-4 border-black'
+      >
         <div className='flex w-full flex-col bg-primary'>
           <div className='w-full bg-black py-8 sm:py-6'>
             <h1 className='text-center text-[3rem] font-bold text-white md:text-3xl'>
@@ -417,7 +409,7 @@ export default function Program() {
             </h1>
           </div>
           <div className='overflow-x-auto'>
-            <div className='grid w-screen grid-cols-[10%,25%,65%] px-4 min-w-max'>
+            <div className='grid w-screen min-w-max grid-cols-[10%,25%,65%] px-4'>
               <div className='border-b-1 border-b-black/15 py-4 font-bold'>
                 Ora
               </div>
@@ -444,16 +436,15 @@ export default function Program() {
                 09.00-12.30
               </div>
               <div className='border-b-1 border-b-black/15 py-4'>
-                Itinerar turistic și cultural în Municipiul Brașov – vizite la muzee; participă elevi, profesori
-                însoțitori și profesori însoțitori desemnați de Inspectoratul Școlar Județean Brașov
+                Itinerar turistic și cultural în Municipiul Brașov – vizite la
+                muzee; participă elevi, profesori însoțitori și profesori
+                însoțitori desemnați de Inspectoratul Școlar Județean Brașov
               </div>
               <div className='border-b-1 border-b-black/15 py-4'>
                 Municipiul Brașov
               </div>
 
-              <div className='border-b-1 border-b-black/15 py-4'>
-                11.00
-              </div>
+              <div className='border-b-1 border-b-black/15 py-4'>11.00</div>
               <div className='border-b-1 border-b-black/15 py-4'>
                 Afișarea rezultatelor inițiale
               </div>
@@ -503,12 +494,8 @@ export default function Program() {
                 <p>Colegiul Național „Andrei Șaguna” Brașov</p>
               </div>
 
-              <div className='border-b-1 border-b-black/15 py-4'>
-                20.00
-              </div>
-              <div className='border-b-1 border-b-black/15 py-4'>
-                Cina
-              </div>
+              <div className='border-b-1 border-b-black/15 py-4'>20.00</div>
+              <div className='border-b-1 border-b-black/15 py-4'>Cina</div>
               <div className='border-b-1 border-b-black/15 py-4'>
                 Poiana Brașov
               </div>
@@ -517,7 +504,10 @@ export default function Program() {
         </div>
       </div>
 
-      <div id='miercuri' className='grid grid-cols-1 divide-y-4 border-y-4 border-black'>
+      <div
+        id='miercuri'
+        className='grid grid-cols-1 divide-y-4 border-y-4 border-black'
+      >
         <div className='flex w-full flex-col bg-primary'>
           <div className='w-full bg-black py-8 sm:py-6'>
             <h1 className='text-center text-[3rem] font-bold text-white md:text-3xl'>
@@ -525,7 +515,7 @@ export default function Program() {
             </h1>
           </div>
           <div className='overflow-x-auto'>
-            <div className='grid w-screen grid-cols-[10%,25%,65%] px-4 min-w-max'>
+            <div className='grid w-screen min-w-max grid-cols-[10%,25%,65%] px-4'>
               <div className='border-b-1 border-b-black/15 py-4 font-bold'>
                 Ora
               </div>
@@ -548,15 +538,16 @@ export default function Program() {
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
               </div>
 
-              <div className='border-b-1 border-b-black/15 py-4'>
-                10.00
-              </div>
+              <div className='border-b-1 border-b-black/15 py-4'>10.00</div>
               <div className='border-b-1 border-b-black/15 py-4'>
                 Festivitatea de premiere
               </div>
               <div className='border-b-1 border-b-black/15 py-4'>
                 <p>Locație:</p>
-                <p>Aula Sergiu Chiriacescu a Universității Transilvania din Brașov</p>
+                <p>
+                  Aula Sergiu Chiriacescu a Universității Transilvania din
+                  Brașov
+                </p>
                 <p>Adresa: Str.Iuliu Maniu Nr.41 A</p>
               </div>
 
@@ -571,8 +562,6 @@ export default function Program() {
           </div>
         </div>
       </div>
-
-
     </main>
   );
 }

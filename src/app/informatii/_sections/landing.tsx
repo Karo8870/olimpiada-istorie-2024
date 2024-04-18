@@ -6,7 +6,7 @@ export default function () {
       <div className='relative flex w-full grow basis-0 flex-col items-center justify-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-          src='/poianabrasov.png'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/poianabrasov.png?alt=media&token=6c896d4f-5c5e-4e2c-a6dc-2b348632232e'
           alt='Poiana Brasov'
         />
         <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>

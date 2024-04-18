@@ -1,6 +1,6 @@
 export default function Brasov() {
   return (
-    <section className='flex items-center border-b-4 px-16 py-8 max-md:px-4 md:flex-col-reverse md:px-4'>
+    <section className='max-md:px-4 flex items-center border-b-4 px-16 py-8 md:flex-col-reverse md:px-4'>
       <div className='flex w-1/2 pr-20 md:w-full md:pr-0'>
         <SVG />
       </div>
@@ -77,7 +77,7 @@ const SVG = () => (
         id='image0_167_30'
         width='4032'
         height='3024'
-        xlinkHref='brasov2.png'
+        xlinkHref='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov2.png?alt=media&token=50c48662-5beb-42b7-b3fa-85d355fc0846'
       />
     </defs>
   </svg>

@@ -12,7 +12,7 @@ export default function Landing() {
             <div className='mb-8 flex flex-col items-center pr-10 sm:mb-0 sm:pr-0'>
               <img
                 className='w-56 sm:w-28'
-                src='/logo.png'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/logo.png?alt=media&token=271a8c77-bdbd-4e15-a932-51bc7c1630f7'
                 alt='Logo'
                 title='By Adela Florea'
               />
@@ -153,13 +153,13 @@ const SVG = () => (
         id='image1_56_2'
         width='900'
         height='650'
-        xlinkHref='/brasov1.png'
+        xlinkHref='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov1.png?alt=media&token=91566099-26a2-4b1d-b6ed-d6bf2e9359f8'
       ></image>
       <image
         id='image0_56_2'
         width='2000'
         height='1326'
-        xlinkHref='/brasov2.png'
+        xlinkHref='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov2.png?alt=media&token=50c48662-5beb-42b7-b3fa-85d355fc0846'
       ></image>
     </defs>
   </svg>

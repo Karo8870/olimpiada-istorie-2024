@@ -4,7 +4,7 @@ export default function Noutati() {
       <div className='relative flex w-full flex-col items-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-          src='/brasov5.jpeg'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov5.jpeg?alt=media&token=89008050-6e39-4057-8eca-c25895c9f686'
           alt='Brasov'
         />
         <div className='mb-48 mt-48 flex w-[80%] max-w-[60rem] flex-col items-center'>
