@@ -1,85 +1,93 @@
 import Link from 'next/link';
+import { ReactNode } from 'react';
+import { SectionHeading } from '@/components/SectionHeading';
 
 export default function () {
   return (
     <section id='transport'>
-      <div className='w-full bg-black py-8 sm:py-6'>
-        <h1 className='text-center text-[3rem] font-bold text-white sm:text-2xl'>
-          Transport și adrese utile
-        </h1>
+      <SectionHeading>Transport și adrese utile</SectionHeading>
+      <div className='flex w-full flex-col gap-8 px-12 py-8'>
+        <Title>
+          Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
+          Sergiu Chirilacescu
+        </Title>
+        <div className='flex w-full items-stretch justify-between gap-4'>
+          <PathCard
+            start='Poiana Brașov'
+            end='Livada Poștei'
+            details='Linia 20'
+          />
+          <i className='fa fa-arrow-right self-center text-3xl' />
+          <PathCard
+            start='Livada Poștei'
+            end='Stația Patria'
+            details='Liniile 1, 6, 17, 31, 34, 34B'
+          />
+          <i className='fa fa-arrow-right self-center text-3xl' />
+          <PathCard
+            start='Stația Patria'
+            end='Aula Sergiu Chiriacescu'
+            details='Mers pe jos'
+            message='500m'
+          />
+        </div>
+        <Title>
+          Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
+          Sergiu Chirilacescu
+        </Title>
+        <div className='flex w-full items-stretch justify-between gap-4'>
+          <PathCard
+            start='Aula Sergiu Chiriacescu'
+            end='Stația Sanitas'
+            details='Mers pe jos'
+            message='200m'
+          />
+          <i className='fa fa-arrow-right self-center text-3xl' />
+          <PathCard
+            start='Stația Sanitas'
+            end='Livada Poștei'
+            details='Liniile 1, 4, 6, 17, 34, 34B'
+            message='2 stații'
+          />
+          <i className='fa fa-arrow-right self-center text-3xl' />
+          <PathCard
+            start='Livada Poștei'
+            end='Poiana Brașov'
+            details='Linia 20'
+            message='2 stații'
+          />
+        </div>
       </div>
       <div className='flex gap-20 px-12 py-10 md:flex-col sm:gap-5 sm:px-6'>
         <div className='flex grow basis-0 flex-col gap-7 sm:gap-3'>
-          <h1 className='text-[3rem] font-bold sm:text-3xl'>
-            Transport in comun - RATBV
-          </h1>
+          <Title>Transport in comun - RATBV</Title>
           <div className='flex gap-6 sm:flex-col sm:gap-3'>
-            <Link target='_blank' href='https://ratbv.ro/trasee-si-orare/' className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-primary px-5 py-4'>
-              <div className='flex flex-col'>
-                <label className='text-[1.5rem] font-semibold sm:text-xl'>
-                  RATBV
-                </label>
-                <label className='text-[1.25rem] font-semibold sm:text-base'>
-                  Trasee și orare
-                </label>
-              </div>
-              <i className='fa fa-arrow-right text-xl' />
-            </Link>
-            <Link target='_blank' href='https://www.ratbv.ro/afisaje/20-dus.html' className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-secondary px-5 py-4'>
-              <div className='flex flex-col'>
-                <label className='text-[1.5rem] font-semibold sm:text-xl'>
-                  RATBV
-                </label>
-                <label className='text-[1.25rem] font-semibold sm:text-base'>
-                  Linia 20
-                </label>
-                <label className='text-base font-semibold sm:text-sm'>
-                  Poiana Brasov - Livada Postei
-                </label>
-              </div>
-              <i className='fa fa-arrow-right text-xl' />
-            </Link>
+            <RATBVCard
+              href='https://ratbv.ro/trasee-si-orare/'
+              title='Trasee și orare'
+            />
+            <RATBVCard
+              href='https://ratbv.ro/trasee-si-orare/'
+              title='Linia 20'
+              details='Poiana Brașov - Livada Postei'
+            />
           </div>
-          <h1 className='text-[3rem] font-bold sm:text-3xl'>Adrese utile</h1>
-          <Link target='_blank' href='https://maps.app.goo.gl/wWjCGH9NcKD1n2tC7' className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
-            <div className='flex items-center justify-between px-4 py-4'>
-              <div className='flex flex-col'>
-                <label className='text-[1.5rem] font-semibold sm:text-xl'>
-                  Colegiul Național "Andrei Șaguna"
-                </label>
-                <label className='text-base font-semibold sm:text-sm'>
-                  Șirul Mitropolit Andrei Șaguna 1, Brașov 500123
-                </label>
-              </div>
-              <i className='fa fa-arrow-right text-xl' />
-            </div>
-          </Link>
-          <Link target='_blank' href='https://maps.app.goo.gl/guztefT4PTQw3rNv7' className='flex flex-col rounded-[1.5rem] border-3 bg-secondary'>
-            <div className='flex items-center justify-between px-4 py-4'>
-              <div className='flex flex-col'>
-                <label className='text-[1.5rem] font-semibold sm:text-xl'>
-                  Aula Sergiu Chiriacescu
-                </label>
-                <label className='text-base font-semibold sm:text-sm'>
-                  Strada Iuliu Maniu 41A, Brașov 500091
-                </label>
-              </div>
-              <i className='fa fa-arrow-right text-xl' />
-            </div>
-          </Link>
-          <Link target='_blank' href='https://maps.app.goo.gl/CmnBJuWeUF1jBiw6A' className='flex flex-col rounded-[1.5rem] border-3 bg-primary'>
-            <div className='flex items-center justify-between px-4 py-4'>
-              <div className='flex flex-col'>
-                <label className='text-[1.5rem] font-semibold sm:text-xl'>
-                  Inspectoratul Școlar Județean
-                </label>
-                <label className='text-base font-semibold sm:text-sm'>
-                  Șirul Gheorghe Dima 4, Brașov 500123
-                </label>
-              </div>
-              <i className='fa fa-arrow-right text-xl' />
-            </div>
-          </Link>
+          <Title>Adrese utile</Title>
+          <AddressCard
+            href='https://maps.app.goo.gl/wWjCGH9NcKD1n2tC7'
+            address='Colegiul Național "Andrei Șaguna"'
+            location='Șirul Mitropolit Andrei Șaguna 1, Brașov 500123'
+          />
+          <AddressCard
+            href='https://maps.app.goo.gl/guztefT4PTQw3rNv7'
+            address='Aula Sergiu Chiriacescu'
+            location='Strada Iuliu Maniu 41A, Brașov 500091'
+          />
+          <AddressCard
+            href='https://maps.app.goo.gl/CmnBJuWeUF1jBiw6A'
+            address='Inspectoratul Școlar Județean'
+            location='Șirul Gheorghe Dima 4, Brașov 500123'
+          />
         </div>
         <div className='grow basis-0'>
           <iframe
@@ -91,5 +99,100 @@ export default function () {
         </div>
       </div>
     </section>
+  );
+}
+
+function Title({ children }: { children: ReactNode }) {
+  return <h1 className='text-[3rem] font-bold sm:text-3xl'>{children}</h1>;
+}
+
+function PathCard({
+  start,
+  end,
+  details,
+  message
+}: {
+  start: string;
+  end: string;
+  details: string;
+  message?: string;
+}) {
+  return (
+    <div className='flex grow basis-0 flex-col items-start justify-center rounded-[1.5rem] border-3 bg-primary px-5 py-4'>
+      <h2 className='text-[1.5rem] font-semibold sm:text-xl'>
+        {start} <i className='fa fa-arrow-right-long text-[1.2rem]' /> {end}
+      </h2>
+      <label className='text-[1.25rem] font-semibold sm:text-base'>
+        {details}
+      </label>
+      {message ? (
+        <span className='text-base font-semibold sm:text-sm'>{message}</span>
+      ) : (
+        ''
+      )}
+    </div>
+  );
+}
+
+function AddressCard({
+  href,
+  location,
+  address
+}: {
+  href: string;
+  location: string;
+  address: string;
+}) {
+  return (
+    <Link
+      target='_blank'
+      href={href}
+      className='flex flex-col rounded-[1.5rem] border-3 bg-primary'
+    >
+      <div className='flex items-center justify-between px-4 py-4'>
+        <div className='flex flex-col'>
+          <label className='text-[1.5rem] font-semibold sm:text-xl'>
+            {location}
+          </label>
+          <label className='text-base font-semibold sm:text-sm'>
+            {address}
+          </label>
+        </div>
+        <i className='fa fa-arrow-right text-xl' />
+      </div>
+    </Link>
+  );
+}
+
+function RATBVCard({
+  title,
+  details,
+  href
+}: {
+  title: string;
+  details?: string;
+  href: string;
+}) {
+  return (
+    <Link
+      target='_blank'
+      href={href}
+      className='flex grow basis-0 items-center justify-between rounded-[1.5rem] border-3 bg-primary px-5 py-4'
+    >
+      <div className='flex flex-col'>
+        <label className='text-[1.5rem] font-semibold sm:text-xl'>RATBV</label>
+        <label className='text-[1.25rem] font-semibold sm:text-base'>
+          {title}
+        </label>
+        {details ? (
+          <label className='text-base font-semibold sm:text-sm'>
+            {details}
+          </label>
+        ) : (
+          ''
+        )}
+      </div>
+      <i className='fa fa-arrow-right text-xl' />
+    </Link>
   );
 }

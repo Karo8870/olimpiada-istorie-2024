@@ -1,3 +1,5 @@
+'use client';
+
 import '@/lib/fontawesome/css/fa.css';
 import LargeButton from '@/components/large-button';
 import { Button } from '@nextui-org/react';

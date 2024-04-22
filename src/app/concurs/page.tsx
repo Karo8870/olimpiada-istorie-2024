@@ -1,5 +1,6 @@
 import '@/lib/fontawesome/css/fa.css';
 import Link from 'next/link';
+import { SectionHeading } from '@/components/SectionHeading';
 
 function Concurs() {
   return (
@@ -10,11 +11,7 @@ function Concurs() {
           src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/saguna.png?alt=media&token=9ec4fe64-ebaa-4295-931d-9d2af61e4a77'
           alt='saguna'
         />
-        <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>
-          <h1 className='relative z-10 text-[3rem] font-bold text-white md:text-3xl'>
-            Concurs
-          </h1>
-        </div>
+        <SectionHeading>Concurs</SectionHeading>
       </div>
       <Sections />
     </main>
@@ -25,7 +22,10 @@ function Sections() {
   return (
     <div className='grid grid-cols-4 gap-6 md:grid-cols-2 sm:grid-cols-1 sm:pb-20'>
       <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
-        <Link href='/regulament' className='flex items-center text-xl font-semibold'>
+        <Link
+          href='/regulament'
+          className='flex items-center text-xl font-semibold'
+        >
           <i className='fa fa-regular fa-file-lines mr-2'></i>
           <span>Regulament</span>
           <i className='fa fa-arrow-right ml-2'></i>

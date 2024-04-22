@@ -3,6 +3,7 @@
 import { useDisclosure } from '@nextui-org/react';
 import { Modal, ModalBody, ModalContent, ModalHeader } from '@nextui-org/modal';
 import { useState } from 'react';
+import { SectionHeading } from '@/components/SectionHeading';
 
 export default function () {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -12,11 +13,7 @@ export default function () {
   return (
     <>
       <section id='cazare' className='flex w-full flex-col'>
-        <div className='w-full bg-black py-8 sm:py-6'>
-          <h1 className='text-center text-[3rem] font-bold text-white sm:text-2xl'>
-            Cazare
-          </h1>
-        </div>
+        <SectionHeading>Cazare</SectionHeading>
         <div className='flex flex-col border-b-4 py-10 pl-20 md:px-8'>
           <h1 className='hidden self-center text-[2rem] font-bold md:block'>
             Hotel ȘOIMUL
@@ -148,11 +145,7 @@ export default function () {
                     <label
                       onClick={() => {
                         setTitle('Județe repartizate Hotel ANA HOTELS POIANA');
-                        setContent([
-                          'BUCUREȘTI',
-                          'VÂLCEA',
-                          'HUNEDOARA'
-                        ]);
+                        setContent(['BUCUREȘTI', 'VÂLCEA', 'HUNEDOARA']);
                         onOpen();
                       }}
                       className='cursor-pointer text-base font-medium md:text-center'
