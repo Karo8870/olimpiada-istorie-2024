@@ -5,7 +5,7 @@ export function Partners() {
   return (
     <section id='parteneri' className='flex w-full flex-col'>
       <SectionHeading>Parteneri</SectionHeading>
-      <div className='grid grid-cols-3 gap-6 px-12 pb-16 pt-12 md:grid-cols-2 sm:grid-cols-1 sm:gap-3 sm:px-6'>
+      <div className='grid grid-cols-3 gap-6 px-12 pb-16 pt-12 md:grid-cols-2 sm:grid-cols-1 sm:gap-3 sm:px-4'>
         <SponsorCard
           title='Primăria Municipiului Brașov'
           src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/primaria.png?alt=media&token=ef390537-7133-40ec-89ff-a9dbac4587d8'

@@ -30,11 +30,31 @@ export default function AppNavbar() {
             <div
               className={`flex-grow basis-0 justify-start gap-10 ${navMode ? 'flex' : 'hidden'}`}
             >
-              <img className='h-[8vh]' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/isj.png?alt=media&token=5a5dcf04-0ca8-42f1-82de-b1d73f46a6df' alt='icon' />
-              <img className='h-[8vh]' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/me.png?alt=media&token=bea040ff-51bc-47fb-a49b-b03618004401' alt='icon' />
-              <img className='h-[8vh]' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/primaria.png?alt=media&token=ef390537-7133-40ec-89ff-a9dbac4587d8' alt='icon' />
-              <img className='h-[8vh]' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/consiliu.png?alt=media&token=1c184d05-5188-481f-b58b-566417b2cbf1' alt='icon' />
-              <img className='h-[8vh]' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/saguna.jpg?alt=media&token=6089a5a5-89ff-4dee-b2f8-fe8a8d336eae' alt='icon' />
+              <img
+                className='h-[8vh]'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/isj.png?alt=media&token=5a5dcf04-0ca8-42f1-82de-b1d73f46a6df'
+                alt='icon'
+              />
+              <img
+                className='h-[8vh]'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/me.png?alt=media&token=bea040ff-51bc-47fb-a49b-b03618004401'
+                alt='icon'
+              />
+              <img
+                className='h-[8vh]'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/primaria.png?alt=media&token=ef390537-7133-40ec-89ff-a9dbac4587d8'
+                alt='icon'
+              />
+              <img
+                className='h-[8vh]'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/consiliu.png?alt=media&token=1c184d05-5188-481f-b58b-566417b2cbf1'
+                alt='icon'
+              />
+              <img
+                className='h-[8vh]'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/saguna.jpg?alt=media&token=6089a5a5-89ff-4dee-b2f8-fe8a8d336eae'
+                alt='icon'
+              />
             </div>
           </div>
           <Link
@@ -105,7 +125,11 @@ export default function AppNavbar() {
         </div>
         <div className='flex items-center justify-between pr-4'>
           <Link href='/'>
-            <img className='h-12 w-12' src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/logo.png?alt=media&token=271a8c77-bdbd-4e15-a932-51bc7c1630f7' alt='icon' />
+            <img
+              className='h-12 w-12'
+              src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/logo.png?alt=media&token=271a8c77-bdbd-4e15-a932-51bc7c1630f7'
+              alt='icon'
+            />
           </Link>
           <i
             onClick={() => {

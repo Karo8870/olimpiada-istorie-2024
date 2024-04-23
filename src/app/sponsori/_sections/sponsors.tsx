@@ -5,7 +5,7 @@ export function Sponsors() {
   return (
     <section id='sponsori' className='flex w-full flex-col'>
       <SectionHeading>Sponsori</SectionHeading>
-      <div className='m:px-6 flex flex-col gap-6 px-12 pb-16 pt-12 sm:gap-3'>
+      <div className='flex flex-col gap-6 px-12 pb-16 pt-12 sm:gap-3 sm:px-4'>
         <div className='grid grid-cols-3 gap-6 md:grid-cols-2 sm:grid-cols-1 sm:gap-3'>
           <SponsorCard
             title='HEALTHY CLEANING CONCEPT'
@@ -83,9 +83,9 @@ export function Sponsors() {
             href='https://honterusgemeinde.ro/ro/'
           />
         </div>
-        <div className='flex gap-6 sm:gap-3'>
+        <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
-            <h1 className='text-2xl font-semibold uppercase'>
+            <h1 className='text-center text-2xl font-semibold uppercase'>
               Mircea Gheorghe Abrudan
             </h1>
           </div>
