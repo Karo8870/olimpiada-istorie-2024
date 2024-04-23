@@ -9,7 +9,7 @@ export default function () {
       <div className='flex w-full flex-col gap-8 px-12 py-8'>
         <Title>
           Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
-          Sergiu Chirilacescu
+          Sergiu Chiriacescu
         </Title>
         <div className='flex w-full items-stretch justify-between gap-4'>
           <PathCard
@@ -33,7 +33,7 @@ export default function () {
         </div>
         <Title>
           Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
-          Sergiu Chirilacescu
+          Sergiu Chiriacescu
         </Title>
         <div className='flex w-full items-stretch justify-between gap-4'>
           <PathCard
