@@ -11,7 +11,7 @@ export default function () {
           Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
           Sergiu Chiriacescu
         </Title>
-        <div className='flex w-full items-stretch justify-between gap-4'>
+        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4'>
           <PathCard
             start='Poiana Brașov'
             end='Livada Poștei'
@@ -35,7 +35,7 @@ export default function () {
           Aula Sergiu Chiriacescu{' '}
           <i className='fa fa-arrow-right-long text-3xl' /> Poiana Brașov
         </Title>
-        <div className='flex w-full items-stretch justify-between gap-4'>
+        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4'>
           <PathCard
             start='Aula Sergiu Chiriacescu'
             end='Stația Sanitas'
