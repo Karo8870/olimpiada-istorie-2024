@@ -60,7 +60,7 @@ export default function () {
       </div>
       <div className='flex gap-20 px-12 py-10 md:flex-col sm:gap-5 sm:px-6'>
         <div className='flex grow basis-0 flex-col gap-7 sm:gap-3'>
-          <Title>Transport in comun - RATBV</Title>
+          <Title>Transport în comun - RATBV</Title>
           <div className='flex gap-6 sm:flex-col sm:gap-3'>
             <RATBVCard
               href='https://ratbv.ro/trasee-si-orare/'
