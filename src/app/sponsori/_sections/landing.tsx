@@ -9,7 +9,7 @@ export function Landing() {
           src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov6.jpeg?alt=media&token=4d919bb7-c7c3-4da4-8add-ecb5d04cc005'
           alt='Poiana Brasov'
         />
-        <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>
+        <div className='flex flex-col items-center md:mb-48 md:mt-48'>
           <h1 className='relative z-10 text-[3rem] font-bold text-white md:text-3xl'>
             Parteneri și sponsori
           </h1>
