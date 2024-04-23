@@ -14,7 +14,7 @@ export default function AppNavbar() {
   return (
     <>
       <nav
-        className={`fixed left-0 top-0 z-50 flex w-full gap-[1vh] bg-white md:hidden ${navMode ? 'flex-col pt-[2vh]' : 'flex-row justify-center p-[1vh]'}`}
+        className={`fixed left-0 top-0 z-[10000] flex w-full gap-[1vh] bg-white md:hidden ${navMode ? 'flex-col pt-[2vh]' : 'flex-row justify-center p-[1vh]'}`}
       >
         <div
           className={`flex grow basis-0 items-center ${navMode ? 'flex-col gap-1' : 'flex-row gap-6'}`}
@@ -95,7 +95,7 @@ export default function AppNavbar() {
         </div>
         <div className={`grow basis-0 ${navMode ? 'hidden' : ''}`}></div>
       </nav>
-      <div className='fixed left-0 top-0 z-10 hidden w-full flex-col bg-white p-2 md:flex'>
+      <div className='fixed left-0 top-0 z-[10000] hidden w-full flex-col bg-white p-2 md:flex'>
         <div className={`flex justify-center pb-2`}>
           <img
             className='h-16 w-16 object-contain'
