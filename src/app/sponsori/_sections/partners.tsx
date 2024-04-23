@@ -4,7 +4,7 @@ import { SponsorCard } from '@/components/SponsorCard';
 export function Partners() {
   return (
     <section id='parteneri' className='flex w-full flex-col'>
-      <SectionHeading>Sponsori</SectionHeading>
+      <SectionHeading>Parteneri</SectionHeading>
       <div className='grid grid-cols-3 gap-6 px-12 pb-16 pt-12 md:grid-cols-2 sm:grid-cols-1 sm:gap-3 sm:px-6'>
         <SponsorCard
           title='Primăria Municipiului Brașov'
