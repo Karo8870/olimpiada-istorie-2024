@@ -32,8 +32,8 @@ export default function () {
           />
         </div>
         <Title>
-          Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
-          Sergiu Chiriacescu
+          Aula Sergiu Chiriacescu{' '}
+          <i className='fa fa-arrow-right-long text-3xl' /> Poiana Brașov
         </Title>
         <div className='flex w-full items-stretch justify-between gap-4'>
           <PathCard
