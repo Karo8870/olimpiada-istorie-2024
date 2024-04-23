@@ -6,24 +6,24 @@ export default function () {
   return (
     <section id='transport'>
       <SectionHeading>Transport și adrese utile</SectionHeading>
-      <div className='flex w-full flex-col gap-8 px-12 py-8'>
+      <div className='flex w-full flex-col gap-8 px-12 py-8 sm:px-6'>
         <Title>
           Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
           Sergiu Chiriacescu
         </Title>
-        <div className='flex w-full items-stretch justify-between gap-4'>
+        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4 sm:gap-2'>
           <PathCard
             start='Poiana Brașov'
             end='Livada Poștei'
             details='Linia 20'
           />
-          <i className='fa fa-arrow-right self-center text-3xl' />
+          <i className='fa fa-arrow-right self-center text-3xl sm:rotate-90' />
           <PathCard
             start='Livada Poștei'
             end='Stația Patria'
             details='Liniile 1, 6, 17, 31, 34, 34B'
           />
-          <i className='fa fa-arrow-right self-center text-3xl' />
+          <i className='fa fa-arrow-right self-center text-3xl sm:rotate-90' />
           <PathCard
             start='Stația Patria'
             end='Aula Sergiu Chiriacescu'
@@ -35,21 +35,21 @@ export default function () {
           Aula Sergiu Chiriacescu{' '}
           <i className='fa fa-arrow-right-long text-3xl' /> Poiana Brașov
         </Title>
-        <div className='flex w-full items-stretch justify-between gap-4'>
+        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4 sm:gap-2'>
           <PathCard
             start='Aula Sergiu Chiriacescu'
             end='Stația Sanitas'
             details='Mers pe jos'
             message='200m'
           />
-          <i className='fa fa-arrow-right self-center text-3xl' />
+          <i className='fa fa-arrow-right self-center text-3xl sm:rotate-90' />
           <PathCard
             start='Stația Sanitas'
             end='Livada Poștei'
             details='Liniile 1, 4, 6, 17, 34, 34B'
             message='2 stații'
           />
-          <i className='fa fa-arrow-right self-center text-3xl' />
+          <i className='fa fa-arrow-right self-center text-3xl sm:rotate-90' />
           <PathCard
             start='Livada Poștei'
             end='Poiana Brașov'
