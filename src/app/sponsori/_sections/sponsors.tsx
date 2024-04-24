@@ -108,7 +108,7 @@ export function Sponsors() {
             href='https://muzeulmuresenilor.ro/'
           />
           <SponsorCard
-            title='Comunitatea evreilor Brașov - România'
+            title='Sinagoga Brașov'
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/cebr.jpg?alt=media&token=07c6cf6c-f2e1-4154-8bb2-55f5382323d6'
             href=''
           />
@@ -116,6 +116,21 @@ export function Sponsors() {
             title='Agenția Metropolitană Brașov'
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/agentia-metropolitana.png?alt=media&token=347c8986-5827-4331-b259-c65210358050'
             href='https://www.metropolabrasov.ro/'
+          />
+          <SponsorCard
+            title='Disz Tipo SRL Săcele'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/disz-tipo.svg?alt=media&token=0767b8fe-8920-4332-8c91-e9675329273a'
+            href='https://disztipo.ro/contact/'
+          />
+          <SponsorCard
+            title='PROBITEC SRL'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/probitec.jpg?alt=media&token=3376a616-83de-4b54-bf3a-3dd31ea821b3'
+            href='https://www.probitec.ro'
+          />
+          <SponsorCard
+            title='APEMIN ZIZIN'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zizin.jpg?alt=media&token=1e0316d1-756b-4843-ab5e-88e1f0a88359'
+            href='https://zizin.ro/'
           />
         </div>
         <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>

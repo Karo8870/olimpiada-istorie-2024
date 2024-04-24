@@ -182,6 +182,11 @@ export default function Program() {
                   Adresa: Valea Dragă, tel.0268 407330, e-mail:
                   reservation-hotelpoiana@anahotels.ro
                 </p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
+                <p>
+                  Adresa: Poiana Soarelui nr. 2, tel.0746181009, e-mail:
+                  office@monterai.ro
+                </p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -233,6 +238,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
             </div>
           </div>
@@ -270,6 +276,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -292,6 +299,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -324,6 +332,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
             </div>
           </div>
@@ -361,6 +370,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -392,6 +402,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
             </div>
           </div>
@@ -430,6 +441,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -482,6 +494,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>
@@ -536,6 +549,7 @@ export default function Program() {
                 <p>Locațiile de cazare:</p>
                 <p>Hotel „Șoimul” din Poiana Brașov</p>
                 <p>Hotel „Ana-Hotels Poiana” din Poiana Brașov</p>
+                <p>Hotel „Monterai Resort” din Poiana Brașov</p>
               </div>
 
               <div className='border-b-1 border-b-black/15 py-4'>10.00</div>
