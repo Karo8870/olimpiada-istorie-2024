@@ -8,6 +8,11 @@ export function Sponsors() {
       <div className='flex flex-col gap-6 px-12 pb-16 pt-12 sm:gap-3 sm:px-4'>
         <div className='grid grid-cols-3 gap-6 md:grid-cols-2 sm:grid-cols-1 sm:gap-3'>
           <SponsorCard
+            title='PREMS'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/prems.jpg?alt=media&token=a32bd639-c97b-4a24-bf17-b53b82e3a2b5'
+            href=''
+          />
+          <SponsorCard
             title='HEALTHY CLEANING CONCEPT'
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-parfumurilor.png?alt=media&token=b1c0d38a-ea49-49a7-a932-e17879e7c3a2'
             href='https://www.casaparfumurilor.ro/'
@@ -81,6 +86,36 @@ export function Sponsors() {
             title='Biserica Neagră/Honterus Gemeinde'
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/biserica-neagra.jpg?alt=media&token=c6bffc80-c35b-4feb-ba25-1d7b8169fae8'
             href='https://honterusgemeinde.ro/ro/'
+          />
+          <SponsorCard
+            title='Rap group'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/rap.png?alt=media&token=ecf86839-67af-43cf-90de-8bfa39eaee9c'
+            href='https://rap-group.ro/'
+          />
+          <SponsorCard
+            title='Asociația Șaguniști Pentru Șaguniști'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/asps.jpg?alt=media&token=a41fcfe6-ed23-4d4f-8e11-fb82475e4dd2'
+            href=''
+          />
+          <SponsorCard
+            title='Muzeul Județean de Istorie Brașov'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/muzeul-judetean.png?alt=media&token=1f7fd078-0f3c-47bd-9581-47d9ff43d34a'
+            href='https://www.brasovistorie.ro/'
+          />
+          <SponsorCard
+            title='Casa Mureșenilor'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-muresenilor.jpg?alt=media&token=4253a5f7-166d-4016-8431-7d0f4775304f'
+            href='https://muzeulmuresenilor.ro/'
+          />
+          <SponsorCard
+            title='Comunitatea evreilor Brașov - România'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/cebr.jpg?alt=media&token=07c6cf6c-f2e1-4154-8bb2-55f5382323d6'
+            href=''
+          />
+          <SponsorCard
+            title='Agenția Metropolitană Brașov'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/agentia-metropolitana.png?alt=media&token=347c8986-5827-4331-b259-c65210358050'
+            href='https://www.metropolabrasov.ro/'
           />
         </div>
         <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>

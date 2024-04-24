@@ -46,6 +46,16 @@ export function Partners() {
           src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/ctsm.png?alt=media&token=7e6eb7eb-b1a2-4410-bde8-940765818638'
           href='https://ctsm.ro/'
         />
+        <SponsorCard
+          title='Școala Gimnazială Prejmer'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/sgp.png?alt=media&token=0a5c2e60-20ef-433a-a089-90b7862ee7ab'
+          href='https://www.scoalaprejmer.ro/'
+        />
+        <SponsorCard
+          title='Palatul Copiilor Brașov'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/pcb.png?alt=media&token=d6166876-c3e0-426f-92f9-b96c4e2da2cd'
+          href='https://palatulcopiilorbrasov.ro/site2/'
+        />
       </div>
     </section>
   );
