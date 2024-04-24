@@ -132,6 +132,11 @@ export function Sponsors() {
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zizin.jpg?alt=media&token=1e0316d1-756b-4843-ab5e-88e1f0a88359'
             href='https://zizin.ro/'
           />
+          <SponsorCard
+            title='AVON'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/avon.jpg?alt=media&token=393b36f0-b3fe-4e5b-a1f8-835076927f7e'
+            href='https://www.avon.ro/'
+          />
         </div>
         <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>

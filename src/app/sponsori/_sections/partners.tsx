@@ -56,11 +56,13 @@ export function Partners() {
           src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/pcb.png?alt=media&token=d6166876-c3e0-426f-92f9-b96c4e2da2cd'
           href='https://palatulcopiilorbrasov.ro/site2/'
         />
-        {/*<SponsorCard
-          title='Asociația Preuniversitară G Moroianu Săcele'
-          src=''
-          href=''
-        />*/}
+        <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
+          <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
+            <h1 className='text-center text-2xl font-semibold uppercase'>
+              Asociația Preuniversitară George Moroianu Săcele
+            </h1>
+          </div>
+        </div>
       </div>
     </section>
   );
