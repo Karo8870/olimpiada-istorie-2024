@@ -54,7 +54,7 @@ export function Sponsors() {
           />
           <SponsorCard
             title='DIRECT CLIENT SERVICES SRL/CĂRTUREȘTI'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/LOGO%20CARTURESTI%202022-DOAR%20NUME-VERDE.svg?alt=media&token=635d049b-6355-4a7f-84b5-d896db2985e7'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/carturesti.png?alt=media&token=a6fa2367-d230-4669-bcba-69c31e81bf9b'
             href='https://carturesti.ro/'
           />
           <SponsorCard
