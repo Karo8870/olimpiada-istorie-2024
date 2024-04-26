@@ -22,9 +22,9 @@ const config = {
       md: { max: '1100px' },
       sm: { max: '576px' },
 
-      'sm-h': { raw: 'height <= 324px' },
-      'md-h': { max: 'height <= 540px' },
-      'lg-h': { max: 'height <= 810px' }
+      'sm-h': { raw: '(max-height: 324px)' },
+      'md-h': { raw: '(max-height: 540px)' },
+      'lg-h': { raw: '(max-height: 800px)' }
     },
     extend: {
       colors: {
