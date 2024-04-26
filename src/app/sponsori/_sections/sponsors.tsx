@@ -53,7 +53,7 @@ export function Sponsors() {
             href='https://www.temad.ro/contact'
           />
           <SponsorCard
-            title='DIRECT CLIENT SERVICES SRL/CĂRTUREȘTI'
+            title=''
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/carturesti.png?alt=media&token=a6fa2367-d230-4669-bcba-69c31e81bf9b'
             href='https://carturesti.ro/'
           />
@@ -137,6 +137,21 @@ export function Sponsors() {
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/avon.jpg?alt=media&token=393b36f0-b3fe-4e5b-a1f8-835076927f7e'
             href='https://www.avon.ro/'
           />
+          <SponsorCard
+            title='CityFood'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/amrita.png?alt=media&token=116c6e45-0121-4688-ba17-7c3159240cfa'
+            href='https://www.cityfood.ro/'
+          />
+          <SponsorCard
+            title='Editura Litera'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/litera.png?alt=media&token=c9b12bc8-f7db-48dd-b283-68324cb740d4'
+            href='https://www.litera.ro/'
+          />
+          <SponsorCard
+            title='Editura Corint'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/corint.png?alt=media&token=a96916e5-d8b1-4586-877f-ca5d99c16b22'
+            href='https://edituracorint.ro/'
+          />
         </div>
         <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
@@ -146,6 +161,9 @@ export function Sponsors() {
           </div>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
             <h1 className='text-2xl font-semibold uppercase'>Țibre Florin</h1>
+          </div>
+          <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
+            <h1 className='text-2xl font-semibold uppercase'>PALCU CIPRIAN</h1>
           </div>
         </div>
       </div>
