@@ -7,11 +7,16 @@ export default function () {
     <section id='transport'>
       <SectionHeading>Transport și adrese utile</SectionHeading>
       <div className='flex w-full flex-col gap-8 px-12 py-8 sm:px-6'>
-        <Title>
-          Poiana Brașov <i className='fa fa-arrow-right-long text-3xl' /> Aula
+        <Link href='/informatii/curse-speciale' className='cursor-pointer text-3xl font-bold hover:underline sm:text-2xl'>
+          <i className='fa fa-regular fa-file-text pr-3'></i> Program curse
+          speciale RATBV
+        </Link>
+        <h1 className='text-3xl font-bold sm:text-2xl'>
+          Poiana Brașov{' '}
+          <i className='fa fa-arrow-right-long text-3xl sm:text-xl' /> Aula
           Sergiu Chiriacescu
-        </Title>
-        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4 sm:gap-2'>
+        </h1>
+        <div className='flex w-full items-stretch justify-between gap-4 sm:flex-col sm:gap-2'>
           <PathCard
             start='Poiana Brașov'
             end='Livada Poștei'
@@ -31,11 +36,12 @@ export default function () {
             message='500m'
           />
         </div>
-        <Title>
+        <h1 className='text-3xl font-bold sm:text-2xl'>
           Aula Sergiu Chiriacescu{' '}
-          <i className='fa fa-arrow-right-long text-3xl' /> Poiana Brașov
-        </Title>
-        <div className='flex w-full sm:flex-col items-stretch justify-between gap-4 sm:gap-2'>
+          <i className='fa fa-arrow-right-long text-3xl sm:text-xl' /> Poiana
+          Brașov
+        </h1>
+        <div className='flex w-full items-stretch justify-between gap-4 sm:flex-col sm:gap-2'>
           <PathCard
             start='Aula Sergiu Chiriacescu'
             end='Stația Sanitas'
