@@ -11,7 +11,7 @@ export default function Regulament() {
       <h1 className='relative z-10 text-[3rem] font-bold text-center md:text-3xl'>
         Regulament
       </h1>
-      <embed src="https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/Ragulament%20specific%20Olimpiada%20de%20Istorie%202024.pdf?alt=media&token=586b6c54-7324-47f8-a329-d9b054dc34ec" type="application/pdf" height="1000" />
+      <embed src="https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/Ragulament%20specific%20Olimpiada%20de%20Istorie%202024.pdf?alt=media&token=92a20ea6-eaee-4ae7-920c-bb7bcfa9f8c3" type="application/pdf" height="1000" />
       {/*</div>*/}
       {/*</div>*/}
     </main>
