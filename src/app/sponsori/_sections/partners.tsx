@@ -1,6 +1,5 @@
 import { SectionHeading } from '@/components/SectionHeading';
 import { SponsorCard } from '@/components/SponsorCard';
-import Link from 'next/link';
 
 export function Partners() {
   return (
@@ -63,25 +62,20 @@ export function Partners() {
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/mtf.jpeg?alt=media&token=e07778a6-871e-4c3e-b3e0-965da9ae8d0b'
             href='https://cetateafagarasului.com/'
           />
+          <SponsorCard
+            title='Colegiul Național „Doamna Stanca” Făgăraș'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/doamna-stanca.jpeg?alt=media&token=2975f019-6cf2-4d87-b435-0ac1f73a6b72'
+            href='https://doamnastanca.ro/'
+          />
         </div>
-        <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
-          <div className='flex grow basis-0 flex-wrap gap-6 sm:gap-3'>
+        <div className='grid grid-cols-3 gap-6 sm:gap-3'>
+          {/*<div className='flex grow basis-0 flex-wrap gap-6 sm:gap-3'>*/}
             <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
               <h1 className='text-center text-2xl font-semibold uppercase'>
                 Asociația Preuniversitară George Moroianu Săcele
               </h1>
             </div>
-          </div>
-          <Link
-            href='https://doamnastanca.ro/'
-            className='flex grow basis-0 flex-wrap gap-6 sm:gap-3'
-          >
-            <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
-              <h1 className='text-center text-2xl font-semibold uppercase'>
-                Colegiul Național Doamna Stanca Făgăraș
-              </h1>
-            </div>
-          </Link>
+          {/*</div>*/}
         </div>
       </div>
     </section>

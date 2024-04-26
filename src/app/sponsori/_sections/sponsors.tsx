@@ -9,7 +9,7 @@ export function Sponsors() {
         <div className='grid grid-cols-3 gap-6 md:grid-cols-2 sm:grid-cols-1 sm:gap-3'>
           <SponsorCard
             title='PREMS'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/prems.jpg?alt=media&token=a32bd639-c97b-4a24-bf17-b53b82e3a2b5'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/prems.jpeg?alt=media&token=9c865c1a-8c8e-4d96-acef-812f7a5f1cca'
             href=''
           />
           <SponsorCard
@@ -153,7 +153,7 @@ export function Sponsors() {
             href='https://edituracorint.ro/'
           />
         </div>
-        <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
+        <div className='grid grid-cols-3 gap-6 sm:gap-3'>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
             <h1 className='text-center text-2xl font-semibold uppercase'>
               Mircea Gheorghe Abrudan
