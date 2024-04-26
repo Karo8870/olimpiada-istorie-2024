@@ -6,7 +6,7 @@ export function Landing() {
       <div className='relative flex w-full grow basis-0 flex-col items-center justify-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov6.jpeg?alt=media&token=4d919bb7-c7c3-4da4-8add-ecb5d04cc005'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov6.jpeg?alt=media&token=561edca2-f41d-404c-8cb6-d59b59edc101'
           alt='Poiana Brasov'
         />
         <div className='flex flex-col items-center md:mb-48 md:mt-48'>

@@ -14,82 +14,82 @@ export function Sponsors() {
           />
           <SponsorCard
             title='HEALTHY CLEANING CONCEPT'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-parfumurilor.png?alt=media&token=b1c0d38a-ea49-49a7-a932-e17879e7c3a2'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-parfumurilor.jpeg?alt=media&token=e9f1b666-c585-4934-8c8b-812c1ee1861a'
             href='https://www.casaparfumurilor.ro/'
           />
           <SponsorCard
             title='Grupul editorial TREI'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/editura3.png?alt=media&token=9c371add-2f4f-4a9a-8024-6c4990f3a6a5'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/editura3.jpeg?alt=media&token=e7e667f3-fa77-43df-9b93-c2e4a1cc165c'
             href='https://www.edituratrei.ro/'
           />
           <SponsorCard
             title='KRONSOFT DEVELOPMENT'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/kronsoft.png?alt=media&token=b2ae777d-ad80-4c8e-8306-f4222ef399f3'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/kronsoft.jpeg?alt=media&token=1351d85c-6938-4b83-b9f0-a0c0b27c9f26'
             href='https://www.kronsoft.ro/'
           />
           <SponsorCard
             title='INSTAL CARPATICA SRL'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/instal-carpatica.png?alt=media&token=f8aa5043-0760-413c-bf39-31bbd0f3da36'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/instal-carpatica.jpeg?alt=media&token=b657a9ec-2784-4cec-84e7-68333545c140'
             href='https://instalcarpatica.ro/'
           />
           <SponsorCard
             title='KERATO INSTAL SRL'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/kerato.webp?alt=media&token=8e575e32-e27c-4493-ad2a-9cfc687a780b'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/kerato.jpeg?alt=media&token=dfadaaf0-15b3-47ba-9c75-290e9869273f'
             href='https://kerato.ro/'
           />
           <SponsorCard
             title='Copy Center TMF'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/tmf.png?alt=media&token=26ce7364-8079-4b53-878c-079d0f1c3942'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/tmf.jpeg?alt=media&token=6f667f7e-e0b0-4f2f-83a2-ab23dce7f7e8'
             href='https://www.copycentertmf.ro'
           />
           <SponsorCard
             title='HUMANITAS'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/humanitas.png?alt=media&token=77359fd0-1a85-4b90-9495-23aced88bf25'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/humanitas.jpeg?alt=media&token=ddfbc5c5-1e63-4d1d-ba6b-9a3792f3940c'
             href='https://humanitas.ro/'
           />
           <SponsorCard
             title='TEMAD CO'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/temad.png?alt=media&token=13a4d00b-fd0e-4e4e-a599-1ae0c2ba4808'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/temad.jpeg?alt=media&token=ee882fd6-6fd7-416b-83b1-73f700d9012d'
             href='https://www.temad.ro/contact'
           />
           <SponsorCard
             title=''
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/carturesti.png?alt=media&token=a6fa2367-d230-4669-bcba-69c31e81bf9b'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/carturesti.jpeg?alt=media&token=7b4c6129-4e48-4432-9b46-56a7b28c50fd'
             href='https://carturesti.ro/'
           />
           <SponsorCard
             title='Zama Buna:TakeAway,Catering,Livrări'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zama-buna.jpg?alt=media&token=b95f8b8e-dc28-470f-91a8-972cad0420bb'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zama-buna.jpeg?alt=media&token=74f3aafe-4cb0-4caf-9018-34d13a3365b8'
             href='https://www.zamabuna.ro'
           />
           <SponsorCard
-            title='Lavander cafe &wine bar'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/lavender.jpg?alt=media&token=1ac05b35-40b2-4e00-b35b-445dea2b6213'
+            title='Lavender cafe & wine bar'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/lavender.jpeg?alt=media&token=7b9e5c2d-6867-451b-92f6-8707b91b6d9b'
             href=''
           />
           <SponsorCard
             title='Asociația de Părinți "Școala din Livadă"'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/iacob-muresianu.jpg?alt=media&token=ab15c620-3ef7-4e12-b8cc-9cd2f6bb6449'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/iacob-muresianu.jpeg?alt=media&token=39d80596-d71a-471f-be40-9e0c8874b17b'
             href='https://www.iacobmuresianu.ro'
           />
           <SponsorCard
             title='S.C FOERCH S.R.L'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/fortech.jpg?alt=media&token=08885a34-20fe-4f48-b964-00a345f368f3'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/fortech.jpeg?alt=media&token=5b366967-791a-42c3-b042-1b6095925e06'
             href='https://www.foerch.ro'
           />
           <SponsorCard
             title='Forumul Democratic German Brașov'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/fdgrbv.png?alt=media&token=74965646-f51f-4fe5-9775-85a352d1974d'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/fdgrbv.jpeg?alt=media&token=5053f269-e224-4765-932c-dbde0308ea96'
             href='https://fdgrbv.ro/'
           />
           <SponsorCard
             title='Biserica Neagră/Honterus Gemeinde'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/biserica-neagra.jpg?alt=media&token=c6bffc80-c35b-4feb-ba25-1d7b8169fae8'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/biserica-neagra.jpeg?alt=media&token=501e67fb-84c6-4a7d-a719-15fb3fc7f4e8'
             href='https://honterusgemeinde.ro/ro/'
           />
           <SponsorCard
             title='Rap group'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/rap.png?alt=media&token=ecf86839-67af-43cf-90de-8bfa39eaee9c'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/rap.jpeg?alt=media&token=b45b3f67-e802-484d-81e4-68a346a8d188'
             href='https://rap-group.ro/'
           />
           <SponsorCard
@@ -99,37 +99,37 @@ export function Sponsors() {
           />
           <SponsorCard
             title='Muzeul Județean de Istorie Brașov'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/muzeul-judetean.png?alt=media&token=1f7fd078-0f3c-47bd-9581-47d9ff43d34a'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/muzeul-judetean.jpeg?alt=media&token=a1592294-9199-46ba-b80f-4a1fc7786db6'
             href='https://www.brasovistorie.ro/'
           />
           <SponsorCard
             title='Casa Mureșenilor'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-muresenilor.jpg?alt=media&token=4253a5f7-166d-4016-8431-7d0f4775304f'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/casa-muresenilor.jpeg?alt=media&token=4730999e-9114-4f02-a0d1-36206722bb43'
             href='https://muzeulmuresenilor.ro/'
           />
           <SponsorCard
             title='Sinagoga Brașov'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/cebr.jpg?alt=media&token=07c6cf6c-f2e1-4154-8bb2-55f5382323d6'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/cebr.jpeg?alt=media&token=84d6d254-04e0-4141-b794-f3b22ff15c3a'
             href=''
           />
           <SponsorCard
             title='Agenția Metropolitană Brașov'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/agentia-metropolitana.png?alt=media&token=347c8986-5827-4331-b259-c65210358050'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/agentia-metropolitana.png?alt=media&token=2ae2897f-b334-4430-b1ab-be1c72e4d53c'
             href='https://www.metropolabrasov.ro/'
           />
           <SponsorCard
             title='Disz Tipo SRL Săcele'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/disz-tipo.svg?alt=media&token=0767b8fe-8920-4332-8c91-e9675329273a'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/disz-tipo.svg?alt=media&token=617c9ac8-843e-4e76-9174-91f21e81a122'
             href='https://disztipo.ro/contact/'
           />
           <SponsorCard
             title='PROBITEC SRL'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/probitec.jpg?alt=media&token=3376a616-83de-4b54-bf3a-3dd31ea821b3'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/probitec.jpeg?alt=media&token=87067ebf-2e70-4439-bf36-3a96df303b1a'
             href='https://www.probitec.ro'
           />
           <SponsorCard
             title='APEMIN ZIZIN'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zizin.jpg?alt=media&token=1e0316d1-756b-4843-ab5e-88e1f0a88359'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/zizin.jpeg?alt=media&token=9e61f6fe-022c-4675-8419-0346423aa845'
             href='https://zizin.ro/'
           />
           <SponsorCard
@@ -144,12 +144,12 @@ export function Sponsors() {
           />
           <SponsorCard
             title='Editura Litera'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/litera.png?alt=media&token=c9b12bc8-f7db-48dd-b283-68324cb740d4'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/litera.jpeg?alt=media&token=b013049e-1691-4f2d-b558-b7b290b920f2'
             href='https://www.litera.ro/'
           />
           <SponsorCard
             title='Editura Corint'
-            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/corint.png?alt=media&token=a96916e5-d8b1-4586-877f-ca5d99c16b22'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/corint.jpeg?alt=media&token=f3288096-6469-4424-a0d7-b90f82b7706d'
             href='https://edituracorint.ro/'
           />
         </div>

@@ -115,7 +115,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='hotel soimul'
-                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/soimul.png?alt=media&token=3e94edaf-1652-4c65-bb46-1e5bf532f2a5'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/soimul.jpeg?alt=media&token=701e8981-732c-4aff-bc2f-326e2f7171d9'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
@@ -129,7 +129,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='ana hotels'
-                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/ana.png?alt=media&token=476ff807-e676-457e-b4f3-cdcf5cc6e27e'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/ana.jpeg?alt=media&token=3c69c56e-0cad-48d3-9783-81d153712fe5'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
@@ -263,7 +263,7 @@ export default function () {
             <div className='flex grow basis-0 justify-center'>
               <img
                 alt='monterai resort'
-                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/monterai.png?alt=media&token=dddb3946-02d0-4801-8d9a-8a104e8782bd'
+                src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/monterai.jpeg?alt=media&token=cc177b3e-3c60-4d5f-b2e7-1e1391ae3f64'
                 className='aspect-video h-full w-3/4 rounded-2xl border-4 border-black object-cover md:static'
               />
             </div>
