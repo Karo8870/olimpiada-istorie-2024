@@ -53,7 +53,7 @@ export function Sponsors() {
             href='https://www.temad.ro/contact'
           />
           <SponsorCard
-            title=''
+            title='Cărturești'
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/carturesti.png?alt=media&token=a6fa2367-d230-4669-bcba-69c31e81bf9b'
             href='https://carturesti.ro/'
           />
