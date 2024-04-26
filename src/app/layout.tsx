@@ -6,6 +6,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ReactNode } from 'react';
 import AppNavbar from '@/components/navbar';
 import '@/lib/fontawesome/css/fa.css';
+import Script from 'next/script';
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
@@ -24,6 +25,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ro' className='overflow-hidden'>
+      <head>
+        <Script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-CKEDXTQRD7'
+        ></Script>
+        <Script id='google-analytics'>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-CKEDXTQRD7');
+          `}
+        </Script>
+      </head>
       <body className={`${jakarta.className} flex h-screen w-screen flex-col`}>
         <AppNavbar />
         <main
