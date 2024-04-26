@@ -139,13 +139,19 @@ export function Sponsors() {
           />
         </div>
         <div className='flex grow basis-1/2 flex-wrap gap-6 sm:gap-3'>
-          <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
+          <div
+            className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
             <h1 className='text-center text-2xl font-semibold uppercase'>
               Mircea Gheorghe Abrudan
             </h1>
           </div>
-          <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
+          <div
+            className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
             <h1 className='text-2xl font-semibold uppercase'>Țibre Florin</h1>
+          </div>
+          <div
+            className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
+            <h1 className='text-2xl font-semibold uppercase'>Șandor Ciprian-GabrielS</h1>
           </div>
         </div>
       </div>
