@@ -77,7 +77,7 @@ const SVG = () => (
         id='image0_167_30'
         width='4032'
         height='3024'
-        xlinkHref='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov2.png?alt=media&token=50c48662-5beb-42b7-b3fa-85d355fc0846'
+        xlinkHref='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov2.jpeg?alt=media&token=18d814a2-5f32-4302-b3b3-2d2731ff9828'
       />
     </defs>
   </svg>

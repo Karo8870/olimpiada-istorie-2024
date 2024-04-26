@@ -7,7 +7,7 @@ function Concurs() {
       <div className='relative flex min-h-[20rem] w-full grow basis-0 flex-col items-center justify-center bg-cover'>
         <img
           className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/saguna.png?alt=media&token=9ec4fe64-ebaa-4295-931d-9d2af61e4a77'
+          src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/saguna%202.jpeg?alt=media&token=80c12734-0f34-4e07-b85b-b78b9fee41b6'
           alt='saguna'
         />
         <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>

@@ -16,7 +16,7 @@ export default function Program() {
           <div className='relative flex h-full w-full flex-col items-center justify-center bg-cover px-16'>
             <img
               className='absolute z-[0] h-full w-full rounded-[1.25rem] object-cover [filter:brightness(65%)]'
-              src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov3.jpeg?alt=media&token=97415289-2544-40c5-b9f0-ecc8a7b71408'
+              src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/brasov3.jpeg?alt=media&token=91a490a9-7c86-4c88-aebc-802e8e04178d'
               alt='brasov'
             />
             <div className='flex w-[80%] max-w-[60rem] flex-col items-center md:mb-48 md:mt-48'>
