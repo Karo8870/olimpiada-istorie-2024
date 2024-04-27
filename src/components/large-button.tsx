@@ -1,4 +1,3 @@
-import '@/lib/fontawesome/css/fa.css';
 import Link from 'next/link';
 
 export default function LargeButton({

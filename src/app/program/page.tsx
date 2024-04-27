@@ -1,4 +1,3 @@
-import '@/lib/fontawesome/css/fa.css';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 

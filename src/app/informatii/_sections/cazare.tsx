@@ -71,7 +71,7 @@ export default function () {
                     >
                       Județe repartizate
                     </label>
-                    <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+                    <i className='fa fa-arrow-right text-xl font-medium' />
                   </div>
                 </div>
                 <div className='flex flex-col items-start md:items-center'>
@@ -152,7 +152,7 @@ export default function () {
                     >
                       Județe repartizate
                     </label>
-                    <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+                    <i className='fa fa-arrow-right text-xl font-medium' />
                   </div>
                 </div>
                 <div className='flex flex-col items-start md:items-center'>
@@ -219,7 +219,7 @@ export default function () {
                     >
                       Județe repartizate
                     </label>
-                    <i className='fa fa-arrow-right fa-regular text-xl font-medium' />
+                    <i className='fa fa-arrow-right text-xl font-medium' />
                   </div>
                 </div>
                 <div className='flex flex-col items-start md:items-center'>

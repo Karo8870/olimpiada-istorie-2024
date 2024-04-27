@@ -18,7 +18,7 @@ export default function () {
       <div className='flex w-full justify-between gap-3 md:flex-col'>
         <Link href='#cazare' className='flex grow basis-0 items-center justify-between rounded-[2rem] border-3 bg-secondary px-8 py-16 md:px-4 md:py-8'>
           <div className='flex flex-col items-center gap-3 md:items-start'>
-            <i className='fa fa-bed-front text-3xl' />
+            <i className='fa fa-bed text-3xl' />
             <label className='text-xl font-semibold'>Cazare</label>
           </div>
           <div

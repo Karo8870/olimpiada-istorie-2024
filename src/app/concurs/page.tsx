@@ -1,4 +1,3 @@
-import '@/lib/fontawesome/css/fa.css';
 import Link from 'next/link';
 
 function Concurs() {

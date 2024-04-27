@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ReactNode } from 'react';
 import AppNavbar from '@/components/navbar';
-import '@/lib/fontawesome/css/fa.css';
 import Script from 'next/script';
+import Link from 'next/link';
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
@@ -26,6 +26,10 @@ export default function RootLayout({
   return (
     <html lang='ro' className='overflow-hidden'>
       <head>
+        <link
+          rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'
+        />
         <Script
           async
           src='https://www.googletagmanager.com/gtag/js?id=G-CKEDXTQRD7'
