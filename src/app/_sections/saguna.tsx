@@ -13,7 +13,7 @@ export default function Saguna() {
         className='h-[562.5px] w-[1000px] rounded-xl md:h-[168.75px] md:w-[300px]'
         width='1000'
         height='562.5'
-        src='https://www.youtube.com/embed/zyFBEzmkn34?si=LD7O8i0OppK6urvN'
+        src='https://www.youtube-nocookie.com/embed/zyFBEzmkn34?si=LD7O8i0OppK6urvN'
         title='YouTube video player'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         referrerPolicy='strict-origin-when-cross-origin'
