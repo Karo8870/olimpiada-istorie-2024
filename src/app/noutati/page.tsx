@@ -13,6 +13,12 @@ export default function Noutati() {
           </h1>
         </div>
       </div>
+      <div className="flex flex-col p-8 sm:p-4 bg-primary border-4 border rounded-[2rem]">
+         <h1 className="text-2xl">În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!</h1>
+         <label className="text-xs">27.04.2024</label>
+         <p className="text-base">Duminică,  28.04.2024, cursele speciale RAT care deservesc olimpiada vor pleca din parcarea mare din Poiana Brașov în intervalul 8.00-8.15.  Vor prelua și elevii cazați la Hotelul Monterai din stația RAT de la Poiana Mică. 
+Traseul se încheie în stația RAT din Livada Poștei.</p>
+      </div>
     </main>
   );
 }
