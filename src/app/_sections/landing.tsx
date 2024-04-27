@@ -30,12 +30,12 @@ export default function Landing() {
               </div>
               <Button
                 as={Link}
-                href='/concurs'
+                href='/noutati'
                 color='default'
                 size='lg'
                 className='mt-6 text-white sm:hidden'
               >
-                Vezi mai multe despre concurs
+                Vezi ultimele noutăți
                 <i className='fa fa-arrow-right ml-2'></i>
               </Button>
             </div>
