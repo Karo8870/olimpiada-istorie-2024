@@ -152,6 +152,16 @@ export function Sponsors() {
             src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/corint.jpeg?alt=media&token=f3288096-6469-4424-a0d7-b90f82b7706d'
             href='https://edituracorint.ro/'
           />
+          <SponsorCard
+            title='Prima școală românească'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/prima-scoala.jpeg?alt=media&token=b12ad796-32c0-461c-81d9-1c6d7fa372b0'
+            href='https://www.primascoalaromaneasca.ro/'
+          />
+          <SponsorCard
+            title='Dencopan'
+            src='https://firebasestorage.googleapis.com/v0/b/olimpiada-istorie-2024.appspot.com/o/dencopan.jpeg?alt=media&token=115c37fd-eb02-46b3-a84d-fcc8e25e906b'
+            href=''
+          />
         </div>
         <div className='grid grid-cols-3 gap-6 sm:gap-3'>
           <div className='flex grow basis-0 flex-col items-center justify-evenly gap-3 rounded-[1.5rem] border-3 bg-primary px-8 py-8'>
