@@ -3,7 +3,7 @@
 import { useDisclosure } from '@nextui-org/react';
 import { Modal, ModalBody, ModalContent, ModalHeader } from '@nextui-org/modal';
 import { useState } from 'react';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/section-heading';
 
 export default function () {
   const { isOpen, onOpen, onClose } = useDisclosure();

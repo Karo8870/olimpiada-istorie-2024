@@ -1,5 +1,5 @@
-import { SectionHeading } from '@/components/SectionHeading';
-import { SponsorCard } from '@/components/SponsorCard';
+import { SectionHeading } from '@/components/section-heading';
+import { SponsorCard } from '@/components/sponsor-card';
 
 export function Sponsors() {
   return (

@@ -1,3 +1,5 @@
+import NewsCard from '@/components/news-card';
+
 export default function Noutati() {
   return (
     <main className='flex flex-col gap-8 px-16 pb-16 pt-36 sm:px-4'>
@@ -13,11 +15,16 @@ export default function Noutati() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-col p-8 sm:p-4 bg-primary border-4 border rounded-[2rem]">
-         <h1 className="text-2xl">În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!</h1>
-         <label className="text-xs">27.04.2024</label>
-         <p className="text-base">Duminică,  28.04.2024, cursele speciale RAT care deservesc olimpiada vor pleca din parcarea mare din Poiana Brașov în intervalul 8.00-8.15.  Vor prelua și elevii cazați la Hotelul Monterai din stația RAT de la Poiana Mică. 
-Traseul se încheie în stația RAT din Livada Poștei.</p>
+      <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
+        <NewsCard
+          title='În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!'
+          date='27.04.2024'
+          body='Duminică, 28.04.2024, cursele speciale RAT care deservesc olimpiada
+            vor pleca din parcarea mare din Poiana Brașov în intervalul
+            8.00-8.15. Vor prelua și elevii cazați la Hotelul Monterai din
+            stația RAT de la Poiana Mică. Traseul se încheie în stația RAT din
+            Livada Poștei.'
+        />
       </div>
     </main>
   );

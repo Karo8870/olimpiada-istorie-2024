@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ReactNode } from 'react';
-import { SectionHeading } from '@/components/SectionHeading';
+import { SectionHeading } from '@/components/section-heading';
 
 export default function () {
   return (

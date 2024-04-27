@@ -36,6 +36,7 @@ const config = {
         primary: '#FFE6C0',
         secondary: '#FFE6C0',
         danger: '#FFE6C0',
+        light: '#FFF5E5',
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))'
