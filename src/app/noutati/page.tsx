@@ -21,7 +21,7 @@ export default function Noutati() {
           date='27.04.2024'
           body='Accesul candidaţilor în săli este permis pe baza buletinului de identitate, paşaportului,  carnetului de elev sau copie a certificatului de naștere în intervalul 09.00 - 09.20.'
           attachmentName='Repartizarea pe săli'
-          attachmentURL='https://drive.google.com/file/d/1zCRf05sKR4MIptsYpi-PohtoG14ssyJU/view?usp=sharing'
+          attachmentURL='https://drive.google.com/file/d/1FEHiNaLvloJU61hwlwIesw6mJdlDerFP/view?usp=sharing'
         />
         <NewsCard
           title='În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!'
