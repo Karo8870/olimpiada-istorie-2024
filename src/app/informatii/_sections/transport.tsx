@@ -7,7 +7,11 @@ export default function () {
     <section id='transport'>
       <SectionHeading>Transport și adrese utile</SectionHeading>
       <div className='flex w-full flex-col gap-8 px-12 py-8 sm:px-6'>
-        <Link href='/informatii/curse-speciale' className='cursor-pointer text-3xl font-bold hover:underline sm:text-2xl'>
+        <Link
+          target='_blank'
+          href='https://drive.google.com/file/d/16QpSHlr0H4f5Ah9Jsti2uOOEqJV3shHi/view?usp=sharing'
+          className='cursor-pointer text-3xl font-bold hover:underline sm:text-2xl'
+        >
           <i className='fa fa-regular fa-file-text pr-3'></i> Program curse
           speciale RATBV
         </Link>

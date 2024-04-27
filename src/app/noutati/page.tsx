@@ -17,6 +17,13 @@ export default function Noutati() {
       </div>
       <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
         <NewsCard
+          title='ÎN ATENŢIA CANDIDAŢILOR'
+          date='27.04.2024'
+          body='Accesul candidaţilor în săli este permis pe baza buletinului de identitate, paşaportului,  carnetului de elev sau copie a certificatului de naștere în intervalul 09.00 - 09.20.'
+          attachmentName='Repartizarea pe săli'
+          attachmentURL='https://drive.google.com/file/d/1zCRf05sKR4MIptsYpi-PohtoG14ssyJU/view?usp=sharing'
+        />
+        <NewsCard
           title='În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!'
           date='27.04.2024'
           body='Duminică, 28.04.2024, cursele speciale RAT care deservesc olimpiada

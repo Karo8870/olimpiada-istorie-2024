@@ -25,7 +25,8 @@ function Sections() {
     <div className='grid grid-cols-4 gap-6 md:grid-cols-2 sm:grid-cols-1 sm:pb-20'>
       <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <Link
-          href='/regulament'
+          target='_blank'
+          href='https://drive.google.com/file/d/1khNSmL4Q_wnvzucc3iNTGnqxB8MFU81E/view'
           className='flex items-center text-xl font-semibold'
         >
           <i className='fa fa-regular fa-file-lines mr-2'></i>
