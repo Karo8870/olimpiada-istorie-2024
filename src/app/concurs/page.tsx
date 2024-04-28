@@ -49,29 +49,89 @@ function Sections() {
           <i className='fa fa-arrow-right ml-2'></i>
         </label>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-2xl font-extrabold'>SUBIECTE</h1>
         <div className='flex flex-col items-center gap-2'>
-          <label className='text-xl font-semibold'>Clasa a VIII-a</label>
-          <label className='text-xl font-semibold'>Clasa a IX-a</label>
-          <label className='text-xl font-semibold'>Clasa a X-a</label>
-          <label className='text-xl font-semibold'>Clasa a XI-a</label>
-          <label className='text-xl font-semibold'>Clasa a XII-a</label>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1V1RrKZsjeJ2QnbBRW7RFzsKdY26V9ezn/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a VIII-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1f07tuZQwCApGj47hfk6hJGxMcCa2ntYL/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a IX-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1WMJBZHdT9vlvQQVwGL3rig8K9xor6PlO/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a X-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/12oUacghowSzfKN9FZ_5soGMnDszrJraH/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XI-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1R0R5zyC0yy3WWsmXHU-giOdRMv4gQrQN/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XII-a
+          </Link>
         </div>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-center text-2xl font-extrabold'>
           BAREME DE EVALUARE ȘI NOTARE
         </h1>
         <div className='flex flex-col items-center gap-2'>
-          <label className='text-xl font-semibold'>Clasa a VIII-a</label>
-          <label className='text-xl font-semibold'>Clasa a IX-a</label>
-          <label className='text-xl font-semibold'>Clasa a X-a</label>
-          <label className='text-xl font-semibold'>Clasa a XI-a</label>
-          <label className='text-xl font-semibold'>Clasa a XII-a</label>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/12oD0SMaa5VlKT_crpk9JH0dgXYK3Yl7E/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a VIII-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/19BZAMJ_YB29uUG7KUCljsS6FB3VYVlqv/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a IX-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/18huji4VVX4OhJSpgMuAcOoUjMO5meAot/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a X-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1oYiSjIObhcG1YP6eY-2zjOXySfqnFt77/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XI-a
+          </Link>
+          <Link
+            target='_blank'
+            href='https://drive.google.com/file/d/1IekyFOe_CewTJ4NC1NIuyI2M65kAWq-f/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XII-a
+          </Link>
         </div>
       </div>
-      <div className='flex grow basis-0 flex-col items-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
+      <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-2xl font-extrabold'>REZULTATE</h1>
         <div className='flex flex-col items-center gap-2'>
           <label className='text-xl font-semibold'>Clasa a VIII-a</label>
