@@ -32,6 +32,52 @@ export default function Noutati() {
             stația RAT de la Poiana Mică. Traseul se încheie în stația RAT din
             Livada Poștei.'
         />
+        <NewsCard
+          title='EXCURSIE 29.04.2024'
+          date='28.04.2024'
+          body={
+            <>
+              <h1 className='pb-4 text-xl'>
+                Program excursie luni, 29.04.2024:
+              </h1>
+              <p>
+                <b>Ora 9:00</b> - Plecare din Livada Poștei.
+              </p>
+              <p className='pt-3'>
+                <b>10.30 - 12:30</b> - vizită Rupea
+              </p>
+              <ul className='list-disc pl-8'>
+                <li>Biserica Evanghelică</li>
+                <li>Muzeul de Etnografie</li>
+                <li>Cetatea Rupea</li>
+              </ul>
+              <p className='pt-3'>
+                <b>12.30 - 13.30</b> - deplasare pe traseul Rupea - Codlea
+              </p>
+              <ul className='list-disc pl-8'>
+                <li>Biserica Evanghelică</li>
+                <li>Muzeul de Etnografie</li>
+                <li>Cetatea Rupea</li>
+              </ul>
+              <p className='pt-3'>
+                <b>12.30 - 13.30</b> - deplasare pe traseul Rupea - Codlea
+              </p>
+              <p className='pt-3'>
+                <b>13.30 - 17:00</b> - Codlea
+              </p>
+              <ul className='list-disc pl-8'>
+                <li>masa de prânz</li>
+                <li>vizită - Cetatea Codlei</li>
+              </ul>
+              <p className='pt-3'>
+                <b>Ora 16:00</b> - deplasare pe traseul Codlea - Râșnov - Poiana
+                Brașov (în Parcarea Mare).
+              </p>
+            </>
+          }
+          attachmentName='Repartizare județe pe autocare'
+          attachmentURL='https://drive.google.com/file/d/1re-LVPWsnLBuEUsw23ZhgeVIIo-itbI7/view?usp=sharing'
+        />
       </div>
     </main>
   );
