@@ -17,6 +17,13 @@ export default function Noutati() {
       </div>
       <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
         <NewsCard
+          title='Raportul contestațiilor'
+          date='30.04.2024'
+          body=''
+          attachmentName='Raport contestații'
+          attachmentURL='https://drive.google.com/file/d/1mSpw4Fqj0WoUTm5wUz1vwNB_63-B9agQ/view?usp=sharing'
+        />
+        <NewsCard
           title='ÎN ATENȚIA CANDIDAȚILOR!'
           date='30.04.2024'
           body='EVENTUALELE CONTESTAȚII SE VOR DEPUNE ASTĂZI, 30.04.2024 ÎNTRE ORELE 11.30 – 13.30.'

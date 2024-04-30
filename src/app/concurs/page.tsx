@@ -132,13 +132,38 @@ function Sections() {
         </div>
       </div>
       <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
-        <h1 className='text-2xl font-extrabold'>REZULTATE</h1>
+        <h1 className='text-2xl font-extrabold'>REZULTATE FINALE</h1>
         <div className='flex flex-col items-center gap-2'>
-          <Link href='https://drive.google.com/file/d/1hP-Wy2qJPEai4NDANWHfDVBMBDUq5XJr/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a VIII-a</Link>
-          <Link href='https://drive.google.com/file/d/1PmIv9aKG02H_1xeftlf8i-MCEKBvSHOD/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a IX-a</Link>
-          <Link href='https://drive.google.com/file/d/1WVbb2LBeGmC3TcC6maRrTqHGWq5459a3/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a X-a</Link>
-          <Link href='https://drive.google.com/file/d/1BoaUT6ru4W2bz_RyWWixcZRpAFY6qpAr/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a XI-a</Link>
-          <Link href='https://drive.google.com/file/d/1b6H5pJRNganIzHPqjD7a6y_9aKhsMO2_/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a XII-a</Link>
+          <Link
+            href='https://drive.google.com/file/d/1mngPC-AJVW4-fY50jDfhuTlVwWvjB389/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a VIII-a
+          </Link>
+          <Link
+            href='https://drive.google.com/file/d/1--ZTtXmS7uaAj5hYXisB1u0Pxmoapn0c/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a IX-a
+          </Link>
+          <Link
+            href='https://drive.google.com/file/d/1CXRdBr2BQjUC8X3ZGtcu13AYTae4iPaz/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a X-a
+          </Link>
+          <Link
+            href='https://drive.google.com/file/d/1cIN6_85eSWjfyvNVJgoi8e_ksUpWpFEx/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XI-a
+          </Link>
+          <Link
+            href='https://drive.google.com/file/d/1rTqVkT4qv3WCpcAU_HD5SEWj8Y2sfSGB/view?usp=sharing'
+            className='text-xl font-semibold hover:underline'
+          >
+            Clasa a XII-a
+          </Link>
         </div>
       </div>
     </div>
