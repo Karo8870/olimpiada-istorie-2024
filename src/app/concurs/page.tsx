@@ -134,11 +134,11 @@ function Sections() {
       <div className='flex grow basis-0 flex-col items-center justify-center gap-4 rounded-[2rem] border-4 bg-secondary px-4 py-6'>
         <h1 className='text-2xl font-extrabold'>REZULTATE</h1>
         <div className='flex flex-col items-center gap-2'>
-          <label className='text-xl font-semibold'>Clasa a VIII-a</label>
-          <label className='text-xl font-semibold'>Clasa a IX-a</label>
-          <label className='text-xl font-semibold'>Clasa a X-a</label>
-          <label className='text-xl font-semibold'>Clasa a XI-a</label>
-          <label className='text-xl font-semibold'>Clasa a XII-a</label>
+          <Link href='https://drive.google.com/file/d/1hP-Wy2qJPEai4NDANWHfDVBMBDUq5XJr/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a VIII-a</Link>
+          <Link href='https://drive.google.com/file/d/1PmIv9aKG02H_1xeftlf8i-MCEKBvSHOD/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a IX-a</Link>
+          <Link href='https://drive.google.com/file/d/1WVbb2LBeGmC3TcC6maRrTqHGWq5459a3/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a X-a</Link>
+          <Link href='https://drive.google.com/file/d/1BoaUT6ru4W2bz_RyWWixcZRpAFY6qpAr/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a XI-a</Link>
+          <Link href='https://drive.google.com/file/d/1b6H5pJRNganIzHPqjD7a6y_9aKhsMO2_/view?usp=sharing' className='text-xl font-semibold hover:underline'>Clasa a XII-a</Link>
         </div>
       </div>
     </div>
