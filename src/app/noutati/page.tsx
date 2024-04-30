@@ -19,9 +19,7 @@ export default function Noutati() {
         <NewsCard
           title='ÎN ATENȚIA CANDIDAȚILOR!'
           date='30.04.2024'
-          body={<><p>EVENTUALELE CONTESTAȚII SE VOR DEPUNE ASTĂZI, 30.04.2024 ÎNTRE ORELE 11.30 – 13.30.</p>
-            <p>ALĂTURAT REGĂSIȚI PREVEDERILE REGULAMENTULUI SPECIFIC DE ORGANIZARE ȘI DESFĂȘURARE A OLIMPIADEI DE ISTORIE 2023 – SECȚIUNEA CONTESTAȚII.</p>
-          </>}
+          body='EVENTUALELE CONTESTAȚII SE VOR DEPUNE ASTĂZI, 30.04.2024 ÎNTRE ORELE 11.30 – 13.30.'
         />
         <NewsCard
           title='ÎN ATENȚIA CANDIDAȚILOR!'
