@@ -17,20 +17,16 @@ export default function Noutati() {
       </div>
       <div className='grid grid-cols-2 gap-4 sm:grid-cols-1'>
         <NewsCard
-          title='ÎN ATENŢIA CANDIDAŢILOR'
-          date='27.04.2024'
-          body='Accesul candidaţilor în săli este permis pe baza buletinului de identitate, paşaportului,  carnetului de elev sau copie a certificatului de naștere în intervalul 09.00 - 09.20.'
-          attachmentName='Repartizarea pe săli'
-          attachmentURL='https://drive.google.com/file/d/1FEHiNaLvloJU61hwlwIesw6mJdlDerFP/view?usp=sharing'
+          title='ÎN ATENȚIA CANDIDAȚILOR!'
+          date='30.04.2024'
+          body={<><p>EVENTUALELE CONTESTAȚII SE VOR DEPUNE ASTĂZI, 30.04.2024 ÎNTRE ORELE 11.30 – 13.30.</p>
+            <p>ALĂTURAT REGĂSIȚI PREVEDERILE REGULAMENTULUI SPECIFIC DE ORGANIZARE ȘI DESFĂȘURARE A OLIMPIADEI DE ISTORIE 2023 – SECȚIUNEA CONTESTAȚII.</p>
+          </>}
         />
         <NewsCard
-          title='În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!'
-          date='27.04.2024'
-          body='Duminică, 28.04.2024, cursele speciale RAT care deservesc olimpiada
-            vor pleca din parcarea mare din Poiana Brașov în intervalul
-            8.00-8.15. Vor prelua și elevii cazați la Hotelul Monterai din
-            stația RAT de la Poiana Mică. Traseul se încheie în stația RAT din
-            Livada Poștei.'
+          title='ÎN ATENȚIA CANDIDAȚILOR!'
+          date='30.04.2024'
+          body='NUMĂRUL DE MENȚIUNI SE STABILEȘTE ÎN FUNCȚIE DE NUMĂRUL DE PARTICIPANȚI/CLASĂ, REPREZENTÂND MAXIMUM 15% DIN TOTALUL PARTICIPANȚILOR CONFORM OME 3035/2012, ART. 47, ALIN(1) ȘI (2).'
         />
         <NewsCard
           title='EXCURSIE 29.04.2024'
@@ -77,6 +73,22 @@ export default function Noutati() {
           }
           attachmentName='Repartizare județe pe autocare'
           attachmentURL='https://drive.google.com/file/d/1re-LVPWsnLBuEUsw23ZhgeVIIo-itbI7/view?usp=sharing'
+        />
+        <NewsCard
+          title='ÎN ATENŢIA CANDIDAŢILOR'
+          date='27.04.2024'
+          body='Accesul candidaţilor în săli este permis pe baza buletinului de identitate, paşaportului,  carnetului de elev sau copie a certificatului de naștere în intervalul 09.00 - 09.20.'
+          attachmentName='Repartizarea pe săli'
+          attachmentURL='https://drive.google.com/file/d/1FEHiNaLvloJU61hwlwIesw6mJdlDerFP/view?usp=sharing'
+        />
+        <NewsCard
+          title='În atenția participațiilor la Olimpiada de Istorie, Etapa Națională!'
+          date='27.04.2024'
+          body='Duminică, 28.04.2024, cursele speciale RAT care deservesc olimpiada
+            vor pleca din parcarea mare din Poiana Brașov în intervalul
+            8.00-8.15. Vor prelua și elevii cazați la Hotelul Monterai din
+            stația RAT de la Poiana Mică. Traseul se încheie în stația RAT din
+            Livada Poștei.'
         />
       </div>
     </main>
